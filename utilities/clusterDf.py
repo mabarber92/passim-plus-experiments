@@ -3,9 +3,8 @@ import pandas as pd
 import re
 import os
 
-"""Note this has been refactored to allow easier date filtering when fetching book and ms specific clusters - update adds
-arguments, but default arguments should ensure that it doesn't break existing use cases - aim to pull this updated form
-accross all other use cases"""
+"""Note this has been refactored to allow easier date filtering when fetching book and ms specific clusters using the fetch_df function
+larger refactor of this code is needed to adopt a pipeline type approach (build a series of cluster filters and then apply them would be more flexible)"""
 
 class clusterDf():
     def __init__ (self, cluster_path, meta_path, min_date=0, max_date = 1500, cluster_cap = 500, drop_strings = True, columns = ["uid", "gid", "cluster", "size", "seq", "series", "text", "begin", "end"]):
@@ -112,7 +111,7 @@ class clusterDf():
     # Function to apply a date filter to the df
     def filter_by_date_range(self, min_date = 0, max_date= 1500, df_in=None, return_df=False):
         """Needs more careful refactoring, as there's no reason to filter self.cluster_df if an input df has been given. The default
-        behaviour when df_in does not equal none would be to return a df""""
+        behaviour when df_in does not equal none would be to return a df"""
         if df_in:
             cluster_df = df_in[df_in["date"].le(max_date)]
             cluster_df = cluster_df[cluster_df["date"].ge(min_date)]
@@ -167,7 +166,7 @@ class clusterDf():
                 ms_list = [ms]
                 
             clusters = self.fetch_clusters_by_uri_mslist(primary_book, ms_list)
-        # Need to fix filtering and filter here - not at cluster selection
+
         cluster_df = self.cluster_df[self.cluster_df["cluster"].isin(clusters)]
         if min_date and max_date:
             cluster_df = self.filter_by_date_range(min_date=min_date, max_date=max_date, df_in=cluster_df)

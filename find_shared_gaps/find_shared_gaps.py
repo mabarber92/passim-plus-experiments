@@ -73,6 +73,8 @@ def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0):
             }
         }
     ]
+    To do: once this code is working - pass a ms text dict to this function and use it to get real ms lens in char - pass the full
+    ms text to the output to allow us to use it in the next processing steps (avoid high IO ops)
     """
 
     # Create empty list for adding data
@@ -84,7 +86,7 @@ def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0):
 
 
     # Get the milestones for the clusters in the main book
-    book_dict = book_clusters[book_clusters["book"] == book_uri].sort_values(by= ["seq", "begin"]).to_dict()
+    book_dict = book_clusters[book_clusters["book"] == book_uri].sort_values(by= ["seq", "begin"]).to_dict("records")
 
     # Advance through book_dict, one-by-one, calculate gap, if meets min_gap, see if there are shared books in the pair, then find gaps for those
     for idx, current_row in enumerate(tqdm(book_dict[:-1])):
