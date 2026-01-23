@@ -49,13 +49,15 @@ def create_gap_dict(prev_dict, next_dict):
 
         return {prev_uri: {"start": start, "end": end}}
 
-def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0):
+def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0, data_check=False):
     """Take one book URI and fetch gaps as dict of aligned gaps
     In:
     book_uri: a book uri which is the base text for comparison, version URI not needed
     cluster_obj: cluster object produced by the clusterDF class
     min_gap: the minimum gap in characters between two reuse instances for it to be considered an alignment
     index_start: the first index of the output dict. Used when running a whole corpus to ensure that all identifiers are unique
+    data_check: if you want to check the results against the input data, set this to true and it will return all of the rows of the
+    cluster data that were used to support a result
     Returns: type dict
     [
         {"index": 1,
@@ -114,21 +116,30 @@ def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0):
 
             # For matching books see if gap condition is met - store cases where it is
             for matching_book in matching_books:
-                dicts_before = reuse_before[reuse_before["book"] == matching_book].to_dict()
-                dicts_after = reuse_after[reuse_after["book"] == matching_book].to_dict()
+                dicts_before = reuse_before[reuse_before["book"] == matching_book].to_dict("records")
+                dicts_after = reuse_after[reuse_after["book"] == matching_book].to_dict("records")
                 for before_dict in dicts_before:
                     for after_dict in dicts_after:
                         matching_gap = check_gap(before_dict, after_dict, min_gap=min_gap)
                         if matching_gap:
-                            gap_dict = create_gap_dict(before_dict, after_dict, min_gap=min_gap)
+                            gap_dict = create_gap_dict(before_dict, after_dict)
                             matching_gaps.append(gap_dict)
             
             if len(matching_gaps) > 0:
                 index_start +=1
                 main_dict = create_gap_dict(current_row, next_row)
-                out_dict = {
-                        "index": 1,
-                        "gaps_data": main_dict + matching_gaps
+                if data_check:
+                    out_dict = {
+                            "index": index_start,
+                            "gaps_data": [main_dict] + matching_gaps,
+                            "supporting_data": {
+                                "before": reuse_before.to_dict("records"),
+                                "after": reuse_after.to_dict("records")}
+                            }
+                else:
+                    out_dict = {
+                        "index": index_start,
+                        "gaps_data": [main_dict] + matching_gaps
                         }
                 out_data.append(out_dict)
 
