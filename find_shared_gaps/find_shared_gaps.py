@@ -81,11 +81,11 @@ def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0):
     # Fetch a df of the clusters for the given book_uri - only for books dating before the book_uri death date
     death_date = int(re.findall("\d+", book_uri)[0])
     book_clusters = cluster_obj.return_cluster_df_for_uri_ms(book_uri, min_date=0, max_date=death_date)
-    print(len(book_clusters))
+
 
     # Get the milestones for the clusters in the main book
     book_dict = book_clusters[book_clusters["book"] == book_uri].sort_values(by= ["seq", "begin"]).to_dict()
-    print(book_dict)
+
     # Advance through book_dict, one-by-one, calculate gap, if meets min_gap, see if there are shared books in the pair, then find gaps for those
     for idx, current_row in enumerate(tqdm(book_dict[:-1])):
         

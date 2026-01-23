@@ -69,22 +69,16 @@ class clusterDf():
         return stats_df
 
     # Use a URI to fetch a list of clusters
-    def fetch_clusters_by_uri(self, uri, uri_field = "book", min_date=None, max_date=None):       
-        if min_date and max_date:
-            print(f"Filtering between dates: {min_date} and {max_date}")
-            cluster_df = self.filter_by_date_range(min_date, max_date, return_df=True)
-        else:
-            cluster_df = self.cluster_df
+    def fetch_clusters_by_uri(self, uri, uri_field = "book"):       
+
+        cluster_df = self.cluster_df
 
         return cluster_df[cluster_df[uri_field] == uri]["cluster"].to_list()
     
     # Use a URI and a ms_list to fetch cluster list
-    def fetch_clusters_by_uri_mslist(self, uri, ms_list, uri_field="book", min_date= None, max_date=None):
-        
-        if min_date and max_date:
-            cluster_df = self.filter_by_date_range(min_date, max_date, return_df=True)
-        else:
-            cluster_df = self.cluster_df
+    def fetch_clusters_by_uri_mslist(self, uri, ms_list, uri_field="book"):
+
+        cluster_df = self.cluster_df
 
         filtered = cluster_df[cluster_df[uri_field] == uri]
         return filtered[filtered["seq"].isin(ms_list)]["cluster"].to_list()
@@ -116,15 +110,24 @@ class clusterDf():
         return pd.DataFrame(stat_dicts)
 
     # Function to apply a date filter to the df
-    def filter_by_date_range(self, min_date = 0, max_date= 1500, return_df=False):
-        if return_df:
-            cluster_df = self.cluster_df[self.cluster_df["date"].le(max_date)]
+    def filter_by_date_range(self, min_date = 0, max_date= 1500, df_in=None, return_df=False):
+        """Needs more careful refactoring, as there's no reason to filter self.cluster_df if an input df has been given. The default
+        behaviour when df_in does not equal none would be to return a df""""
+        if df_in:
+            cluster_df = df_in[df_in["date"].le(max_date)]
             cluster_df = cluster_df[cluster_df["date"].ge(min_date)]
             cluster_df = self.clean_single_clusters(cluster_df)
+            return cluster_df
         else:
-            self.cluster_df = self.cluster_df[self.cluster_df["date"].le(max_date)]
-            self.cluster_df = self.cluster_df[self.cluster_df["date"].ge(min_date)]
-            self.cluster_df = self.clean_single_clusters(self.cluster_df)
+            if return_df:
+                cluster_df = self.cluster_df[self.cluster_df["date"].le(max_date)]
+                cluster_df = cluster_df[cluster_df["date"].ge(min_date)]
+                cluster_df = self.clean_single_clusters(cluster_df)
+                return cluster_df
+            else:
+                self.cluster_df = self.cluster_df[self.cluster_df["date"].le(max_date)]
+                self.cluster_df = self.cluster_df[self.cluster_df["date"].ge(min_date)]
+                self.cluster_df = self.clean_single_clusters(self.cluster_df)
 
     def filter_by_author_list(self, author_list):
         print("Filtering clusters by authors: {}".format(author_list))
@@ -147,7 +150,7 @@ class clusterDf():
     def return_cluster_df_for_uri_ms(self, primary_book, ms = None, input_type = "range", min_date = None, max_date = None):
         # None type allows this function to be used to fetch all of the clusters for an entire text (rather than specified milestones)
         if ms == None:
-            clusters = self.fetch_clusters_by_uri(primary_book, min_date = min_date, max_date= max_date)
+            clusters = self.fetch_clusters_by_uri(primary_book)
         else:
             if type(ms) == list and input_type == "range":
                 if len(ms) == 2:
@@ -163,8 +166,12 @@ class clusterDf():
             else:
                 ms_list = [ms]
                 
-            clusters = self.fetch_clusters_by_uri_mslist(primary_book, ms_list, min_date = min_date, max_date = max_date)
-        return self.cluster_df[self.cluster_df["cluster"].isin(clusters)]
+            clusters = self.fetch_clusters_by_uri_mslist(primary_book, ms_list)
+        # Need to fix filtering and filter here - not at cluster selection
+        cluster_df = self.cluster_df[self.cluster_df["cluster"].isin(clusters)]
+        if min_date and max_date:
+            cluster_df = self.filter_by_date_range(min_date=min_date, max_date=max_date, df_in=cluster_df)
+        return cluster_df
     
     def print_aggregated_stats(self, greater_than_measure = 100):
         # Perform calculations
