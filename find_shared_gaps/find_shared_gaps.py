@@ -118,9 +118,9 @@ def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0):
                 dicts_after = reuse_after[reuse_after["book"] == matching_book].to_dict()
                 for before_dict in dicts_before:
                     for after_dict in dicts_after:
-                        matching_gap = check_gap(before_dict, after_dict)
+                        matching_gap = check_gap(before_dict, after_dict, min_gap=min_gap)
                         if matching_gap:
-                            gap_dict = create_gap_dict(before_dict, after_dict)
+                            gap_dict = create_gap_dict(before_dict, after_dict, min_gap=min_gap)
                             matching_gaps.append(gap_dict)
             
             if len(matching_gaps) > 0:

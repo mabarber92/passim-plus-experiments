@@ -112,7 +112,7 @@ class clusterDf():
     def filter_by_date_range(self, min_date = 0, max_date= 1500, df_in=None, return_df=False):
         """Needs more careful refactoring, as there's no reason to filter self.cluster_df if an input df has been given. The default
         behaviour when df_in does not equal none would be to return a df"""
-        if df_in:
+        if df_in is not None:
             cluster_df = df_in[df_in["date"].le(max_date)]
             cluster_df = cluster_df[cluster_df["date"].ge(min_date)]
             cluster_df = self.clean_single_clusters(cluster_df)
@@ -168,7 +168,7 @@ class clusterDf():
             clusters = self.fetch_clusters_by_uri_mslist(primary_book, ms_list)
 
         cluster_df = self.cluster_df[self.cluster_df["cluster"].isin(clusters)]
-        if min_date and max_date:
+        if min_date is not None and max_date is not None:
             cluster_df = self.filter_by_date_range(min_date=min_date, max_date=max_date, df_in=cluster_df)
         return cluster_df
     
