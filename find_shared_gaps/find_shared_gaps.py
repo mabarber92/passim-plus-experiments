@@ -1,6 +1,9 @@
 from utilities.clusterDf import clusterDf
+from utilities.openitiTexts import openitiTextMs
 import json
 import re
+import pandas as pd
+import os
 from tqdm import tqdm
 
 def check_gap(prev_dict, next_dict, min_gap, av_word_len=4):
@@ -37,7 +40,7 @@ def check_gap(prev_dict, next_dict, min_gap, av_word_len=4):
 def create_gap_dict(prev_dict, next_dict):
     """Take a record of previous and next cluster data and convert it into a dictionary that documents the gap
     Returns dict like:
-    {"0000AuthorBook": {"start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}}"""
+    {"book": "0000AuthorBook", "start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}"""
     prev_uri = prev_dict["book"]
     next_uri = next_dict["book"]
     if prev_uri != next_uri:
@@ -47,7 +50,7 @@ def create_gap_dict(prev_dict, next_dict):
         start = {"ms": prev_dict["seq"], "ch": prev_dict["end"]}
         end = {"ms": next_dict["seq"], "ch": next_dict["begin"]}
 
-        return {prev_uri: {"start": start, "end": end}}
+        return {"book": prev_uri, "start": start, "end": end}
 
 def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0, data_check=False):
     """Take one book URI and fetch gaps as dict of aligned gaps
@@ -62,16 +65,16 @@ def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0, data_check=Fa
     [
         {"index": 1,
         "gaps_data": 
-            [{"0000AuthorBook": {"start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}},
-            {"0000AuthorBook": {"start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}},
-            {"0000AuthorBook": {"start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}},]
+            [{"book": "0000AuthorBook", "start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}},
+            {"book": "0000AuthorBook", "start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}},
+            {"book": "0000AuthorBook", "start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}]
         }
             ,
         {"index": 2,
         "gaps_data": 
-            [{"0000AuthorBook": {"start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}},
-            {"0000AuthorBook": {"start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}},
-            {"0000AuthorBook": {"start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}},]
+            [{"book": "0000AuthorBook", "start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}},
+            {"book": "0000AuthorBook", "start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}},
+           {"book": "0000AuthorBook", "start": {"ms": 1, "ch": 200}, "end": {"ms": 1, "ch": 300}}]
             }
         }
     ]
@@ -100,6 +103,7 @@ def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0, data_check=Fa
         gap = check_gap(current_row, next_row, min_gap)
 
         if gap:
+            book_list = []
             # If gap criteria fit check for matching gaps on other side of relationship
             matching_gaps = []
             # Get cluster dfs for either side of relationship
@@ -124,14 +128,17 @@ def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0, data_check=Fa
                         if matching_gap:
                             gap_dict = create_gap_dict(before_dict, after_dict)
                             matching_gaps.append(gap_dict)
+                            book_list.append(matching_book)
             
             if len(matching_gaps) > 0:
                 index_start +=1
                 main_dict = create_gap_dict(current_row, next_row)
+                book_list.append(book_uri)
                 if data_check:
                     out_dict = {
                             "index": index_start,
                             "gaps_data": [main_dict] + matching_gaps,
+                            "books": book_list,
                             "supporting_data": {
                                 "before": reuse_before.to_dict("records"),
                                 "after": reuse_after.to_dict("records")}
@@ -139,15 +146,65 @@ def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0, data_check=Fa
                 else:
                     out_dict = {
                         "index": index_start,
-                        "gaps_data": [main_dict] + matching_gaps
+                        "gaps_data": [main_dict] + matching_gaps,
+                        "books": book_list
                         }
                 out_data.append(out_dict)
 
     # Return the results
     return out_data
- 
+
+def create_path_dict(meta_path, openiti_base_dir):
+    """Create a dictionary where keys are books and the path links to specified openit_base_dir"""
+
+    meta_df = pd.read_csv(meta_path, sep="\t")
+    meta_df = meta_df[meta_df["status"]=="pri"]
+
+    meta_dict = meta_df[["book", "local_path"]].to_dict("records")
+    out_dict = {}
+
+    for meta in meta_dict:
+        full_path = os.path.join(openiti_base_dir, meta["local_path"].split("../")[-1])
+        out_dict[meta["book"]] = full_path
+    
+    return out_dict
 
 
+
+def populate_offset_text(gap_data, path_dict):
+    """Take gap data and add text field by parsing the relevant openiti texts"""
+    
+    # Get list of all book names in gap_data
+    print("Getting book names from data")
+    book_list = []
+    for row in tqdm(gap_data):
+        book_data = row["gaps_data"]
+        for dict_item in book_data:
+            book = dict_item["book"]
+            if book not in book_list:
+                book_list.append(book)
+    
+    # Loop through each book - for each book loop through the data and populate the text according to specified offsets
+    for book in tqdm(book_list):
+        openiti_path = path_dict[book]
+        ms_obj = openitiTextMs(openiti_path)
+
+        for row in gap_data:
+            if book in row["books"]:
+                for gap in row["gaps_data"]:
+                    if gap["book"] == book:
+                        ms_start = gap["start"]["ms"]
+                        ms_end = gap["end"]["ms"]
+                        if ms_end - ms_start == 0:
+                            text = ms_obj.fetch_offset_clean(ms_start, start= gap["start"]["ch"], end = gap["end"]["ch"])
+                        else:
+                            text = ms_obj.fetch_ms_list_clean([ms_start, ms_end], start=gap["start"]["ch"], end = gap["end"]["ch"])
+                        
+                        # Add text to the data
+                        gap["text"] = text
+
+    # Return updated data
+    return gap_data
 
 
 def query_corpus(cluster_obj, book_list = []):
@@ -160,7 +217,7 @@ def query_corpus(cluster_obj, book_list = []):
     """
 
 
-def run_pipeline(cluster_path, meta_path, book_list = [], raw_gaps_out=None):
+def run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list = [], raw_gaps_out=None):
     """Run full processing pipeline from cluster data to data about gaps
     In:
     cluster_path: path to the cluster data (csv, json dir or parquet dir)
@@ -180,11 +237,22 @@ def run_pipeline(cluster_path, meta_path, book_list = [], raw_gaps_out=None):
     else:
         gap_data = query_corpus(cluster_obj, book_list)
     
+    # Use corpus to fetch text
+
+    # Produce dict of file paths for books
+    path_dict = create_path_dict(meta_path, openiti_base_dir)
+
+    # Add offsetted text pieces to the gap_data
+    gap_data = populate_offset_text(gap_data, path_dict)
+    
+    
     # Export a json of the gap_data if the path is given
     if raw_gaps_out:
-        json_string = json.dumps(gap_data, indent=4)
+        json_string = json.dumps(gap_data, ensure_ascii=False, indent=4)
         with open(raw_gaps_out, "w", encoding='utf-8') as f:
             f.write(json_string)
         
-    # Use corpus to fetch text and produce pairwise files
+    # 
+
+    # and produce pairwise files
 
