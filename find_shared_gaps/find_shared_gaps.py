@@ -171,7 +171,7 @@ def create_path_dict(meta_path, openiti_base_dir):
 
 
 
-def populate_offset_text(gap_data, path_dict):
+def populate_offset_text(gap_data, path_dict, offset_padding=0):
     """Take gap data and add text field by parsing the relevant openiti texts"""
     
     # Get list of all book names in gap_data
@@ -196,9 +196,9 @@ def populate_offset_text(gap_data, path_dict):
                         ms_start = gap["start"]["ms"]
                         ms_end = gap["end"]["ms"]
                         if ms_end - ms_start == 0:
-                            text = ms_obj.fetch_offset_clean(ms_start, start= gap["start"]["ch"], end = gap["end"]["ch"])
+                            text = ms_obj.fetch_offset_clean(ms_start, start= gap["start"]["ch"], end = gap["end"]["ch"], padding=offset_padding)
                         else:
-                            text = ms_obj.fetch_ms_list_clean([ms_start, ms_end], start=gap["start"]["ch"], end = gap["end"]["ch"])
+                            text = ms_obj.fetch_ms_list_clean([ms_start, ms_end], start=gap["start"]["ch"], end = gap["end"]["ch"], padding=offset_padding)
                         
                         # Add text to the data
                         gap["text"] = text
@@ -217,13 +217,15 @@ def query_corpus(cluster_obj, book_list = []):
     """
 
 
-def run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list = [], raw_gaps_out=None):
+def run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list = [], raw_gaps_out=None, offset_padding=0):
     """Run full processing pipeline from cluster data to data about gaps
     In:
     cluster_path: path to the cluster data (csv, json dir or parquet dir)
     meta_path: path to metadata, used by clusterDF
     book_list: a list of book_uris to use, if empty run whole corpus, if one book only data for one book
     raw_gaps_out: a path to export a raw gaps json (produced by query_book or query_corpus)
+    offset_padding: add padding to the offsets to expand the captured material beyond that identified through passim, padding is given in
+    characters and rounded to the nearest token during processing (to avoid mid-token breaks)
     """
 
     # Create the cluster object
@@ -243,7 +245,7 @@ def run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list = [], raw_
     path_dict = create_path_dict(meta_path, openiti_base_dir)
 
     # Add offsetted text pieces to the gap_data
-    gap_data = populate_offset_text(gap_data, path_dict)
+    gap_data = populate_offset_text(gap_data, path_dict, offset_padding=offset_padding)
     
     
     # Export a json of the gap_data if the path is given
