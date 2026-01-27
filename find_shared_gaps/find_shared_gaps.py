@@ -1,5 +1,6 @@
 from utilities.clusterDf import clusterDf
 from utilities.openitiTexts import openitiTextMs
+from utilities.data_parsing import gapsClusters
 import json
 import re
 import pandas as pd
@@ -247,12 +248,12 @@ def run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list = [], raw_
     # Add offsetted text pieces to the gap_data
     gap_data = populate_offset_text(gap_data, path_dict, offset_padding=offset_padding)
     
-    
+    # Store the data as a gapsCluster object for later processing steps
+    gaps_obj = gapsClusters(gap_data)
     # Export a json of the gap_data if the path is given
     if raw_gaps_out:
-        json_string = json.dumps(gap_data, ensure_ascii=False, indent=4)
-        with open(raw_gaps_out, "w", encoding='utf-8') as f:
-            f.write(json_string)
+        gaps_obj.save_json(raw_gaps_out)
+
         
     # 
 
