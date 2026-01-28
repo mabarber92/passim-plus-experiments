@@ -75,16 +75,18 @@ class gapsClusters():
                     if "text" not in gap.keys():
                         print("Error found in text key")
                         exit()
+                    if "text_after" in gap.keys() and "text_before" in gap.keys():
+                        self.surround_text = True
+                    else:
+                        self.surround_text = False
             else:
                 print("Error found in 'gaps_data' key")
                 exit()
             if "books" not in row.keys():
                 print("Error found in books key")
                 exit()
-            if "text_after" in row.keys() and "text_before" in row.keys():
-                 self.surround_text = True
-            else:
-                 self.surround_text = False
+
+
 
     def write_json(self, data, export_path, indent=4):
         json_string = json.dumps(data, ensure_ascii=False, indent=indent)
@@ -239,12 +241,13 @@ class gapsClusters():
 
         prediction = {
             "id" : f"{ref}1",
-            "from_name": f"spans_{ref}",
-            "type": "labels"
+            "from_name": f"spans{ref}",
+            "to_name": f"text{ref}",
+            "type": "labels",
             "value": {
                 "start": offset_start,
                 "end": offset_end,
-                "text": prediction_text
+                "text": prediction_text,
                 "labels": [label]
             }
         }
@@ -258,9 +261,6 @@ class gapsClusters():
         # Initialise empty list to append data to
         out = []
 
-        # Rename text1 and text2 to text_a and text_b - if this is unnecessary remove it
-        df = df.rename({"text1": "text_a", "text2": "text_b"})
-
         # Convert to list of dicts for easier processing
         rows = df.to_dict("records")
 
@@ -269,13 +269,13 @@ class gapsClusters():
 
             # If we have a before and after then some processing is required to create predictions
             if self.surround_text:
-                full_text_a, prediction_a = self._convert_to_prediction("text_a", "text_before1", "text_after1", "a", row)
-                full_text_b, prediction_b = self._convert_to_prediction("text_b", "text_before2", "text_after2", "b", row)
-                row["text_a"] = full_text_a
-                row["text_b"] = full_text_b
+                full_text_a, prediction_a = self._convert_to_prediction("text1", "text_before1", "text_after1", "1", row)
+                full_text_b, prediction_b = self._convert_to_prediction("text2", "text_before2", "text_after2", "2", row)
+                row["text1"] = full_text_a
+                row["text2"] = full_text_b
 
                 processed_data = {"data": row,
-                    predictions: [
+                    "predictions": [
                         {"model_version": "passim_gaps",
                          "result": [
                             prediction_a,
@@ -320,7 +320,7 @@ class gapsClusters():
     def _pairwise_exporter(self, directory, format, sep_pairwise=False, primary_books=None):
         """Reusable pairwise exporter for handling different file types
         format: 'csv' or 'label_studio' 
-        Allows for more flexible reuse, but custom methods""""
+        Allows for more flexible reuse, but custom methods"""
 
                 # Check supplied dir exists - if not, create it
         self._check_create_dir(directory)

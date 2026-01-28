@@ -112,12 +112,13 @@ class openitiTextMs():
             text = text_cleaner(text)
         return text
     
-    def fetch_offset_clean(self, ms_number, start = 0, end = -1, padding=0):
+    def fetch_offset_clean(self, ms_number, start = 0, end = -1, padding=0, trim=0):
         """Clean the ms text using the same OpenITI cleaning process used to pre-process passim inputs
         Return a character offset of the ms text between specified start and end characters. If no start is given
         start from first character of milestone, if no end is given go to the end of the milestone
         padding allows for the adding of a boundary of characters before or after the offset. The padding is
-        expanded to the start or end of the nearest token to the start or end +/- padding"""
+        expanded to the start or end of the nearest token to the start or end +/- padding
+        trim is used for attaching context and it trims a set number of characters from the start (to the nearest token)"""
         
         # Fetch a cleaned version of the milestone text
         text = self.fetch_milestone(ms_number, clean=True)
@@ -138,6 +139,14 @@ class openitiTextMs():
                 while captured_text != " " and start > 0:
                     start -= 1
                     captured_text = text[start]
+        
+        if trim != 0:
+            ms_end = len(text)
+            start = start + trim
+            captured_text = None
+            while captured_text != " " and start > 0:
+                start-= 1
+                captured_text = text[start]
 
         
         # Make offset
@@ -145,7 +154,7 @@ class openitiTextMs():
 
         return text
     
-    def fetch_ms_list_clean(self, ms_list, start=0, end=-1, ms_joins=True, padding=0):
+    def fetch_ms_list_clean(self, ms_list, start=0, end=-1, ms_joins=True, padding=0, trim=0):
         """Take a list of consecutive milestones and return a complete cleaned text according to offsets. start is the offset into the first milestone
         and end is the offset into the last milestone
         ms_joins adds the milestone marker (according to the zfill of in input text) between the milestone boundaries. If set to false then

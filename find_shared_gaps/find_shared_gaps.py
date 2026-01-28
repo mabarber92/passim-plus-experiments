@@ -50,8 +50,10 @@ def create_gap_dict(prev_dict, next_dict):
     else:
         start = {"ms": prev_dict["seq"], "ch": prev_dict["end"]}
         end = {"ms": next_dict["seq"], "ch": next_dict["begin"]}
+        before = {"ms": prev_dict["seq"], "start_ch": prev_dict["begin"], "end_ch": prev_dict["end"]}
+        after = {"ms": next_dict["seq"], "start_ch": next_dict["begin"], "end_ch": next_dict["end"]}
 
-        return {"book": prev_uri, "start": start, "end": end}
+        return {"book": prev_uri, "start": start, "end": end, "before": before, "after": after}
 
 def query_book(cluster_obj, book_uri, min_gap=12, index_start = 0, data_check=False):
     """Take one book URI and fetch gaps as dict of aligned gaps
@@ -172,9 +174,13 @@ def create_path_dict(meta_path, openiti_base_dir):
 
 
 
-def populate_offset_text(gap_data, path_dict, offset_padding=0):
+def populate_offset_text(gap_data, path_dict, offset_padding=0, fetch_context=False, trim_context=0):
     """Take gap data and add text field by parsing the relevant openiti texts"""
     
+    # If fetch_context is set - ensure that we do not pad
+    if fetch_context:
+        offset_padding = 0
+
     # Get list of all book names in gap_data
     print("Getting book names from data")
     book_list = []
@@ -200,10 +206,17 @@ def populate_offset_text(gap_data, path_dict, offset_padding=0):
                             text = ms_obj.fetch_offset_clean(ms_start, start= gap["start"]["ch"], end = gap["end"]["ch"], padding=offset_padding)
                         else:
                             text = ms_obj.fetch_ms_list_clean([ms_start, ms_end], start=gap["start"]["ch"], end = gap["end"]["ch"], padding=offset_padding)
-                        
+   
                         # Add text to the data
                         gap["text"] = text
 
+                        if fetch_context:
+                            gap["text_before"] = ms_obj.fetch_offset_clean(gap["before"]["ms"], 
+                                                start=gap["before"]["start_ch"], end=gap["before"]["end_ch"],
+                                                trim = trim_context)
+                            gap["text_after"] = ms_obj.fetch_offset_clean(gap["after"]["ms"], 
+                                                start=gap["after"]["start_ch"], end=gap["after"]["end_ch"],
+                                                trim = trim_context)
     # Return updated data
     return gap_data
 
@@ -218,7 +231,7 @@ def query_corpus(cluster_obj, book_list = []):
     """
 
 
-def run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list = [], raw_gaps_out=None, offset_padding=0):
+def run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list = [], raw_gaps_out=None, fetch_context=False, trim_context=0, offset_padding=0):
     """Run full processing pipeline from cluster data to data about gaps
     In:
     cluster_path: path to the cluster data (csv, json dir or parquet dir)
@@ -246,7 +259,7 @@ def run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list = [], raw_
     path_dict = create_path_dict(meta_path, openiti_base_dir)
 
     # Add offsetted text pieces to the gap_data
-    gap_data = populate_offset_text(gap_data, path_dict, offset_padding=offset_padding)
+    gap_data = populate_offset_text(gap_data, path_dict, offset_padding=offset_padding, fetch_context=fetch_context, trim_context = trim_context)
     
     # Store the data as a gapsCluster object for later processing steps
     gaps_obj = gapsClusters(gap_data)
@@ -255,7 +268,5 @@ def run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list = [], raw_
         gaps_obj.save_json(raw_gaps_out)
 
         
-    # 
 
-    # and produce pairwise files
 
