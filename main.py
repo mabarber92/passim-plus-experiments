@@ -1,4 +1,5 @@
 from find_shared_gaps.find_shared_gaps import run_pipeline
+from utilities.data_parsing import gapsClusters
 
 if __name__ == "__main__":
     cluster_path = "E:/Corpus Stats/2023/v8-clusters/minified_clusters_pre-1000AH_under500_2.csv"
@@ -7,4 +8,8 @@ if __name__ == "__main__":
     openiti_base_dir = "E:/OpenITI Corpus/corpus_2023_1_8"
     book_list = ["0630IbnAthirCizzDin.Kamil"]
 
-    run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list= book_list, raw_gaps_out=out, offset_padding=25)
+    # run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list= book_list, raw_gaps_out=out, offset_padding=25)
+
+    pairwise_dir = "find_shared_gaps/pairwise_csvs/"
+    gaps_obj = gapsClusters(out)
+    gaps_obj.export_csv(pairwise_dir, sep_pairwise=True, primary_books=book_list)
