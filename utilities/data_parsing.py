@@ -3,6 +3,7 @@ for easy conversion to csv or LabelStudio compliant data"""
 import json
 import os
 import pandas as pd
+from compare_pairs.pair_comparison import pairComparison
 
 class gapsClusters():
     """Take list of dictionaries formated like this and render it as a series of formats:
@@ -176,7 +177,7 @@ class gapsClusters():
         if not os.path.exists(dir):
             os.mkdir(dir)
 
-    def _write_pairwise_dirs(self, parent_dir, dfs, format):
+    def _write_pairwise_dirs(self, parent_dir, dfs, format, add_diff=False):
         """Take a dict of dfs and use it to build pairwise directory structure and write out csvs
         parent_dir: the directory where all data outputs will be stored
         dfs: df structure produced by either _build_df_all_pairs or _build_pairwise_dfs
@@ -203,7 +204,7 @@ class gapsClusters():
                 if format == 'csv':
                     df.to_csv(full_path, encoding='utf-8-sig', index=False)
                 if format == 'label_studio':
-                    self._to_label_studio_json(df, full_path)
+                    self._to_label_studio_json(df, full_path, add_diff=add_diff)
 
     def export_csv(self, directory, sep_pairwise=False, primary_books=None):
         """Convert the dataset into a pairwise representation and export it as pairwise structure.
@@ -254,8 +255,39 @@ class gapsClusters():
 
         return full_text, prediction
 
+    def _format_as_prediction(self, id, from_name, to_name, start, end, labels):
+        """For quick access - take values and format as a prediction dictionary
+        labels should be a list"""
+        return {
+            "id": id,
+            "from_name": from_name,
+            "to_name": to_name,
+            "type": "labels",
+            "value": {
+                "start": start,
+                "end": end,
+                "labels": labels
+            }
+        }
 
-    def _to_label_studio(self, df):
+    def _add_verbatim_as_prediction(self, text_a, text_b, ref_a, ref_b):
+        """Run a diff on pair of texts and return offsets as a list of predictions"""
+        offset_dict =  pairComparison(text_a, text_b).fetch_verbatim_offsets()
+        
+        predictions = []
+        for offset in offset_dict["text_a"]:
+            predictions.append(self._format_as_prediction(offset["id"], ref_a, ref_a, offset["start"], offset["end"], ["verbatim"]))
+        
+        for offset in offset_dict["text_b"]:
+            predictions.append(self._format_as_prediction(offset["id"], ref_b, ref_b, offset["start"], offset["end"], ["verbatim"]))
+        
+        return {"model_version": "kitab_diff",
+                "result": predictions
+                }
+
+
+
+    def _to_label_studio(self, df, add_diff=False, ref_a = "1", ref_b="2"):
         """Take a df, loop through each row and format it as a label_studio compliant dict"""
 
         # Initialise empty list to append data to
@@ -269,8 +301,8 @@ class gapsClusters():
 
             # If we have a before and after then some processing is required to create predictions
             if self.surround_text:
-                full_text_a, prediction_a = self._convert_to_prediction("text1", "text_before1", "text_after1", "1", row)
-                full_text_b, prediction_b = self._convert_to_prediction("text2", "text_before2", "text_after2", "2", row)
+                full_text_a, prediction_a = self._convert_to_prediction("text1", "text_before1", "text_after1", ref_a, row)
+                full_text_b, prediction_b = self._convert_to_prediction("text2", "text_before2", "text_after2", ref_b, row)
                 row["text1"] = full_text_a
                 row["text2"] = full_text_b
 
@@ -285,25 +317,29 @@ class gapsClusters():
                         }
                     ]
                 }
-
-            
+                if add_diff:
+                    processed_data["predictions"].extend(self._add_verbatim_as_prediction(full_text_a, full_text_b, ref_a, ref_b))
+            # If we calaculate diffs, then we need to pass them as a new model within predictions - check if it exists and add
+            # We must calculate the diffs after the full text has been returned - best handled as a separate function
             else:
                 processed_data = {"data": row}
+                if add_diff:
+                    processed_data["predictions"] = self._add_verbatim_as_prediction(row["text1"], row["text2"], ref_a, ref_b)
             
             out.append(processed_data)
         
         return out
 
 
-    def _to_label_studio_json(self, df, path):
+    def _to_label_studio_json(self, df, path, add_diff=False):
         """Take df and write it to a json in label_studio format
         path: path to export json to
         df: dataframe to export"""
-        label_studio_data = self._to_label_studio(df)
+        label_studio_data = self._to_label_studio(df, add_diff=add_diff)
         self.write_json(label_studio_data, path)
 
 
-    def export_label_studio_json(self, directory, sep_pairwise=False, primary_books=None):
+    def export_label_studio_json(self, directory, sep_pairwise=False, primary_books=None, add_diff=False):
         """Convert the dataset into a pairwise representaton and export it as a json that will import into label
         studio. If self.surround_text is True, then the text of the gap will be given as a 'prediction' and the
         full text: text_before + text + text_after will be given as the main text, with offsets for the prediction. Otherwise
@@ -315,9 +351,9 @@ class gapsClusters():
         primary_books: if given, only these books as book1 plus their book2s will be outputted"""
 
         # Run the exporter with label studio format
-        self._pairwise_exporter(directory, 'label_studio', sep_pairwise, primary_books)
+        self._pairwise_exporter(directory, 'label_studio', sep_pairwise, primary_books, add_diff=add_diff)
     
-    def _pairwise_exporter(self, directory, format, sep_pairwise=False, primary_books=None):
+    def _pairwise_exporter(self, directory, format, sep_pairwise=False, primary_books=None, add_diff=False):
         """Reusable pairwise exporter for handling different file types
         format: 'csv' or 'label_studio' 
         Allows for more flexible reuse, but custom methods"""
@@ -332,7 +368,7 @@ class gapsClusters():
             # Filter dfs and write out the files by looping through resulting dictionaries
             dfs = self._build_df_all_pairs(all_pairs_df, primary_books)
             
-            self._write_pairwise_dirs(directory, dfs, format)
+            self._write_pairwise_dirs(directory, dfs, format, add_diff=add_diff)
             
         else:
             if format == 'csv':
@@ -342,4 +378,4 @@ class gapsClusters():
             if format == 'label_studio':
                 
                 file_path = os.path.join(directory, "all_pairs_label_studio.json")
-                self.to_label_studio_json(all_pairs_df, file_path)
+                self._to_label_studio_json(all_pairs_df, file_path, add_diff=add_diff)

@@ -8,9 +8,9 @@ if __name__ == "__main__":
     openiti_base_dir = "E:/OpenITI Corpus/corpus_2023_1_8"
     book_list = ["0421Miskawayh.Tajarib"]
 
-    run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list= book_list, raw_gaps_out=out, fetch_context=True)
+    # run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list= book_list, raw_gaps_out=out, fetch_context=True)
 
-    pairwise_dir = "find_shared_gaps/label_studio_miskawayh_context/"
+    pairwise_dir = "find_shared_gaps/label_studio_miskawayh_diff/"
     gaps_obj = gapsClusters(out)
     print("Exporting to label_studio format...")
-    gaps_obj.export_label_studio_json(pairwise_dir, sep_pairwise=True, primary_books=book_list)
+    gaps_obj.export_label_studio_json(pairwise_dir, sep_pairwise=True, primary_books=book_list, add_diff=True)
