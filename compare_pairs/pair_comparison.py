@@ -12,6 +12,11 @@ class pairComparison():
         self.diff_a = None
         self.diff_b = None
 
+        # print("Text A")
+        # print(text_a)
+        # print("Text B")
+        # print(text_b)
+
     def run_diff(self):
         """Run the diff and store the raw data"""
         text1, text2, self.diff_a, self.diff_b = kitab_diff(self.text_a, self.text_b)
