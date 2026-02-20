@@ -23,8 +23,8 @@ class pairComparison():
     
     def _filter_offsets(self, diff_data, type="="):
         """Run through a set of diff_data and the full offset data based on type
-        types: = verbatim, - deletion, + addition"""
-        return [offset for offset in diff_data if offset == type]
+        types: = verbatim, - deletion, + addition"""        
+        return [offset for offset in diff_data if offset["type"] == type]
 
     def fetch_verbatim_offsets(self):
         """Get the start and end positions for all verbatim overlap in text_a and text_b
