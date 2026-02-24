@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
     # run_pipeline(cluster_path, meta_path, openiti_base_dir, book_list= book_list, raw_gaps_out=out, fetch_context=True)
 
-    pairwise_dir = "find_shared_gaps/label_studio_miskawayh_diff/"
+    pairwise_dir = "find_shared_gaps/label_studio_miskawayh_diff_offsetfix_minline15/"
     gaps_obj = gapsClusters(out)
     print("Exporting to label_studio format...")
     gaps_obj.export_label_studio_json(pairwise_dir, sep_pairwise=True, primary_books=book_list, add_diff=True)

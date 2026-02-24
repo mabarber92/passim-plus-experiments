@@ -275,13 +275,13 @@ class gapsClusters():
         offset_dict =  pairComparison(text_a, text_b).fetch_verbatim_offsets()
         
         predictions = []
-        for offset in offset_dict["text_a"]:
+        for offset in offset_dict["offsets_a"]:
             predictions.append(self._format_as_prediction(offset["id"], ref_a, ref_a, offset["start"], offset["end"], ["verbatim"], side="a"))
         
-        for offset in offset_dict["text_b"]:
+        for offset in offset_dict["offsets_b"]:
             predictions.append(self._format_as_prediction(offset["id"], ref_b, ref_b, offset["start"], offset["end"], ["verbatim"], side="b"))
         
-        return predictions
+        return predictions, offset_dict
 
 
 
@@ -301,6 +301,17 @@ class gapsClusters():
             # NEED TO USE THE TEXT RETURNED BY THE DIFF, NOT THE INCOMING TEXT, AS THE OFFSETS ARE WRONG
             # If we have a before and after then some processing is required to create predictions
             if self.surround_text:
+                # To add diff with correct offsets - need to run diff on each piece, then reassemble and add the
+                # surround_text offset - or we'll get a mapping issue - preliminary solution below, refactoring needed for more cases
+                # Note current change should change data in place - if we want to preserve inputs perhaps not best approach
+                if add_diff:
+                    for data_key in [["text1", "text2"], ["text_before1", "text_before2"], ["text_after1", "text_after2"]]:
+                        predictions, offset_dict = self._add_verbatim_as_prediction(row[data_key[0]], row[data_key[1]], ref_a, ref_b)
+                    
+                        row[data_key[0]] = offset_dict["text_a"]
+                        row[data_key[1]] = offset_dict["text_b"]
+
+
                 full_text_a, prediction_a = self._convert_to_prediction("text1", "text_before1", "text_after1", ref_a, row)
                 full_text_b, prediction_b = self._convert_to_prediction("text2", "text_before2", "text_after2", ref_b, row)
                 row["text1"] = full_text_a
@@ -320,17 +331,22 @@ class gapsClusters():
                 if add_diff:
                     # data = self._add_verbatim_as_prediction(full_text_a, full_text_b, ref_a, ref_b)
                     # print(data)
-                    processed_data["predictions"][0]["result"].extend(self._add_verbatim_as_prediction(full_text_a, full_text_b, ref_a, ref_b))
+                    processed_data["predictions"][0]["result"].extend(predictions)
+                    
             # If we calaculate diffs, then we need to pass them as a new model within predictions - check if it exists and add
             # We must calculate the diffs after the full text has been returned - best handled as a separate function
             else:
                 processed_data = {"data": row}
                 if add_diff:
+                    predictions, offset_dict = self._add_verbatim_as_prediction(row["text1"], row["text2"], ref_a, ref_b)
+                    processed_data["data"]["text1"] = offset_dict["text_a"]
+                    processed_data["data"]["text2"] = offset_dict["text_b"]
                     processed_data["predictions"] = [
                         {"model_version": "passim_gaps",
-                         "result": self._add_verbatim_as_prediction(row["text1"], row["text2"], ref_a, ref_b)
+                         "result": predictions
                          }
                         ]
+                
                         
             
             out.append(processed_data)

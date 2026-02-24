@@ -5,12 +5,17 @@ class pairComparison():
     """A class that takes a pair of texts by default and applies a series of functions for
     comparison through methods. Methods and variables can return statistics about similarities
     and overlaps including offsets for mapping"""
-    def __init__ (self, text_a, text_b):
+    def __init__ (self, text_a, text_b, min_line_length=15):
+        """Setting min_line_length to None will mean that diff is calculated without peforming
+        line breaks (this should only be set to an int if using the output in a reader, otherwise
+        it's not likely to be useful)"""
         self.text_a = text_a
         self.text_b = text_b
 
         self.diff_a = None
         self.diff_b = None
+
+        self.min_line_length = min_line_length
 
         # print("Text A")
         # print(text_a)
@@ -19,7 +24,10 @@ class pairComparison():
 
     def run_diff(self):
         """Run the diff and store the raw data"""
-        text1, text2, self.diff_a, self.diff_b = kitab_diff(self.text_a, self.text_b)
+        if self.min_line_length is None:
+            self.text1, self.text2, self.diff_a, self.diff_b = kitab_diff(self.text_a, self.text_b)
+        else:
+            self.text1, self.text2, self.diff_a, self.diff_b = kitab_diff(self.text_a, self.text_b, min_line_length=self.min_line_length)
     
     def _filter_offsets(self, diff_data, type="="):
         """Run through a set of diff_data and the full offset data based on type
@@ -39,7 +47,15 @@ class pairComparison():
         verbatim_a = self._filter_offsets(self.diff_a)
         verbatim_b = self._filter_offsets(self.diff_b)
 
-        return {"text_a": verbatim_a, "text_b": verbatim_b}
+        # if "br" in self.text_a:
+        #     print(self.text_a)
+        # if "br" in self.text_b:
+        #     print(self.text_a)
+        
+        return {"text_a": self.text_a,
+                "offsets_a": verbatim_a,
+                "text_b": self.text_b,
+                "offsets_b": verbatim_b}
         
 
 
