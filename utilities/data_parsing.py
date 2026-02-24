@@ -269,21 +269,30 @@ class gapsClusters():
                 "labels": labels
             }
         }
+    
+    def _augment_offset(self, offset, chars):
+        offset["start"] = offset["start"] + chars
+        offset["end"] = offset["end"] + chars
+        return offset
 
-    def _add_verbatim_as_prediction(self, text_a, text_b, ref_a, ref_b):
-        """Run a diff on pair of texts and return offsets as a list of predictions"""
+    def _add_verbatim_as_prediction(self, text_a, text_b, ref_a, ref_b, augment_offset_a=0, augment_offset_b=0):
+        """Run a diff on pair of texts and return offsets as a list of predictions
+        Augment_offset adds an int to the offset - to be used when adding multiple pieces together
+        where the offset needs adjusting iteratively"""
         offset_dict =  pairComparison(text_a, text_b).fetch_verbatim_offsets()
         
         predictions = []
         for offset in offset_dict["offsets_a"]:
+            offset = self._augment_offset(offset, augment_offset_a)
             predictions.append(self._format_as_prediction(offset["id"], ref_a, ref_a, offset["start"], offset["end"], ["verbatim"], side="a"))
         
         for offset in offset_dict["offsets_b"]:
+            offset = self._augment_offset(offset, augment_offset_b)
             predictions.append(self._format_as_prediction(offset["id"], ref_b, ref_b, offset["start"], offset["end"], ["verbatim"], side="b"))
         
         return predictions, offset_dict
 
-
+    
 
     def _to_label_studio(self, df, add_diff=False, ref_a = "1", ref_b="2"):
         """Take a df, loop through each row and format it as a label_studio compliant dict"""
@@ -304,12 +313,32 @@ class gapsClusters():
                 # To add diff with correct offsets - need to run diff on each piece, then reassemble and add the
                 # surround_text offset - or we'll get a mapping issue - preliminary solution below, refactoring needed for more cases
                 # Note current change should change data in place - if we want to preserve inputs perhaps not best approach
+                # BUG - Need to augment the offsets - text1 offsets need to have len text_before1 added to them
                 if add_diff:
-                    for data_key in [["text1", "text2"], ["text_before1", "text_before2"], ["text_after1", "text_after2"]]:
-                        predictions, offset_dict = self._add_verbatim_as_prediction(row[data_key[0]], row[data_key[1]], ref_a, ref_b)
+                    processed_data = {"predictions": [
+                            {"model_version": "passim_gaps",
+                            "result": [
+                                ]
+
+                            }
+                        ]
+                    }
+
+                    augment_offset_a = 0
+                    augment_offset_b = 0
+                    for data_key in [["text_before1", "text_before2"], ["text1", "text2"], ["text_after1", "text_after2"]]:
+
+                        predictions, offset_dict = self._add_verbatim_as_prediction(row[data_key[0]], row[data_key[1]], ref_a, ref_b, augment_offset_a, augment_offset_b)
+                        text_a = offset_dict["text_a"]
+                        text_b = offset_dict["text_b"]
+                        augment_offset_a += len(text_a)
+                        augment_offset_b += len(text_b)
+                        row[data_key[0]] = text_a
+                        row[data_key[1]] = text_b
+                        processed_data["predictions"][0]["result"].extend(predictions)
                     
-                        row[data_key[0]] = offset_dict["text_a"]
-                        row[data_key[1]] = offset_dict["text_b"]
+                    # As we've changed the content of the row, we add the data at this point
+                    processed_data["data"] = row
 
 
                 full_text_a, prediction_a = self._convert_to_prediction("text1", "text_before1", "text_after1", ref_a, row)
@@ -317,17 +346,23 @@ class gapsClusters():
                 row["text1"] = full_text_a
                 row["text2"] = full_text_b
 
-                processed_data = {"data": row,
-                    "predictions": [
-                        {"model_version": "passim_gaps",
-                         "result": [
-                            prediction_a,
-                            prediction_b
-                            ]
+                if add_diff:
+                    processed_data["predictions"][0]["result"].extend([prediction_a, prediction_b])
+                    # As we've changed the content of the row again, we update the data at this point (this logic needs cleaning)
+                    processed_data["data"] = row
+                
+                else:
+                    processed_data = {"data": row,
+                        "predictions": [
+                            {"model_version": "passim_gaps",
+                            "result": [
+                                prediction_a,
+                                prediction_b
+                                ]
 
-                        }
-                    ]
-                }
+                            }
+                        ]
+                    }
                 if add_diff:
                     # data = self._add_verbatim_as_prediction(full_text_a, full_text_b, ref_a, ref_b)
                     # print(data)

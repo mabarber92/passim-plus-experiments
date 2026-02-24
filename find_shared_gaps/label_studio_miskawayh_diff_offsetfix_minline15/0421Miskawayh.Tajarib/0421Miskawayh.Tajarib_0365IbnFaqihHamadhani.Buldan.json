@@ -1,27 +1,1790 @@
 [
     {
-        "data": {
-            "book1": "0421Miskawayh.Tajarib",
-            "book2": "0365IbnFaqihHamadhani.Buldan",
-            "start_ms1": 827,
-            "start_ms2": 185,
-            "start1": 803,
-            "start2": 1569,
-            "end_ms1": 827,
-            "end_ms2": 186,
-            "end1": 1192,
-            "end2": 233,
-            "text1": "فقال له خالد ما اري ذلك يا امير المءمنين قال ولم قال لانه علم من اعلام الاسلام يستدل به الناظر علي انه لم يكن ليزال مثل اصحابه عنه بامر دنيا وانما هو امر دين ومع هذا يا امير المءمنين فان فيه مصلي علي بن ابي طالب عليه السلام قال هيهات يا خالد ابيت الا الميل الي اصحابك العجم وامر ان ينقض القصر الابيض فنقض ناحية منه ونظر في مقدار ما يلزمهم من النفقة للنقض والحمل فوجدوا ذلك اكثر من الجديد لو عمل فرفع ذلك الي المنصور فدعا بخالد فاعلمه ذلك وقال  ما تري قال يا امير المءمنين قد كنت اري قبل الا تفعل فاما اذ بدات فاري ان تتمم وتهدمه حتي تلحق بقواعده لءلا يقال عجزت عن هدم ما بناه غيرك فاعرض المنصور عنه وامر الا يهدم وكان اللبن الذي لبنه المنصور اللبنة منها ذراع في ذراع وقد وزنت لبنة منها بعد ما تهدم السور وكانت لبنة مكتوب عليها بمغرة وزنها ماءة وسبعة عشر رطلا فلما وزنت وجدت علي ما كان مكتوبا عليها من الوزن ولما استتم المنصور بناءها  قدم عليه بطريق من البطارقة وافدا فامر الربيع ان يطوف به في المدينة وما حولها ليري العمران والبناء فطاف به الربيع فلما انصرف قال كيف رايت وقد كان اصعد الي السور وقباب الابواب فقال رايت بناء حسنا الا اني رايت اعداءك معك في مدينتك قال فمن هم قال السوقة فاضب عليها ابو جعفر فلما انصرف البطريق امر باخراج السوق من ",
-            "text2": "وكان فيهم خالد بن برمك فلم يقل شيءا فقال له لم لا تكلم يا خالد وتشير بما عندك قال لا اري ذلك يا امير المءمنين قال ولم قال لانه علم من اعلام الاسلام يستدل به الناظر والوافد والملوك علي عظم شان اربابه وعن سلطانهم وان الاسلام قهرهم وازالهم عنه وايضا فان فيه مسجدا لامير المءمنين علي بن ابي طالب رضي الله عنه قال هيهات يا خالد ابيت الا التعصب لاصحابك والميل اليهم وامر بنقضه ونقض ما حوله من الابنية قال فنقض شء من ذلك وحمل اجره الي بغداد فوجدوا ان النفقة علي هدمه وحمله ومءونته اكثر مما ينفق علي الاجر الجديد اذا عمل فرفع ذلك الي المنصور فامر بتركه واحضر خالدا فعرفه الخبر وقال  لهms185 ما عندك في هذا فقال قد كنت اشرت علي امير المءمنين ان لا تعرض لشء من نقضه فلم يفعل فاما الان وقد ابتدا بذلك فما اري ان يكف عنه حتي يلحقه بقواعده لءلا يقال انه عجز عن هدم ما بناه غيره والهدم ايسر من البناء فتبسم المنصور وامر بترك ذلك  قال وامر المنصور ان تجعل الاسواق في طاقات المدينة ازاء كل باب سوقا فلم تزل علي ذلك مدة حتي قدم عليه بطريق من الروم وافدا من عند الملك فامر الربيع ان يطوف به المدينة حتي ينظر اليها ويتاملها ويري سورها وابوابها ب وما حولها من العمارة ويصعد السور حتي يمشي عليه من اوله الي اخره ويريه قباب الابواب والطاقات وجميع ذلك ففعل الربيع ما امره به فلما دخل الي المنصور قال له كيف رايت مدينتي قال رايت حسنا ومدينة حصينة الا ان اعداءك معك فيها قال ومن هم قال السوقة يوافي الجاسوس من بعض الاطراف فيدخل لعلة ما يشتري فيتجسس الاخبار ويعرف ما يريد وينصرف من غير ان يعلم به فسكت المنصور فلما انصرف البطريق امر باخراج السوقة من المدينة وتقدم الي ابراهيم بن الحبيش الكوفي وخراش بن المسيب اليمامي بذلك وامرهما ",
-            "text_before1": "فقال له خالد ما اري ذلك يا امير المءمنين قال ولم قال لانه علم من اعلام الاسلام يستدل به الناظر علي انه لم يكن ليزال مثل اصحابه عنه بامر دنيا وانما هو امر دين ومع هذا يا امير المءمنين فان فيه مصلي علي بن ابي طالب عليه السلام قال هيهات يا خالد ابيت الا الميل الي اصحابك العجم وامر ان ينقض القصر الابيض فنقض ناحية منه ونظر في مقدار ما يلزمهم من النفقة للنقض والحمل فوجدوا ذلك اكثر من الجديد لو عمل فرفع ذلك الي المنصور فدعا بخالد فاعلمه ذلك وقال ",
-            "text_before2": "وكان فيهم خالد بن برمك فلم يقل شيءا فقال له لم لا تكلم يا خالد وتشير بما عندك قال لا اري ذلك يا امير المءمنين قال ولم قال لانه علم من اعلام الاسلام يستدل به الناظر والوافد والملوك علي عظم شان اربابه وعن سلطانهم وان الاسلام قهرهم وازالهم عنه وايضا فان فيه مسجدا لامير المءمنين علي بن ابي طالب رضي الله عنه قال هيهات يا خالد ابيت الا التعصب لاصحابك والميل اليهم وامر بنقضه ونقض ما حوله من الابنية قال فنقض شء من ذلك وحمل اجره الي بغداد فوجدوا ان النفقة علي هدمه وحمله ومءونته اكثر مما ينفق علي الاجر الجديد اذا عمل فرفع ذلك الي المنصور فامر بتركه واحضر خالدا فعرفه الخبر وقال ",
-            "text_after1": "قدم عليه بطريق من البطارقة وافدا فامر الربيع ان يطوف به في المدينة وما حولها ليري العمران والبناء فطاف به الربيع فلما انصرف قال كيف رايت وقد كان اصعد الي السور وقباب الابواب فقال رايت بناء حسنا الا اني رايت اعداءك معك في مدينتك قال فمن هم قال السوقة فاضب عليها ابو جعفر فلما انصرف البطريق امر باخراج السوق من ",
-            "text_after2": "قال وامر المنصور ان تجعل الاسواق في طاقات المدينة ازاء كل باب سوقا فلم تزل علي ذلك مدة حتي قدم عليه بطريق من الروم وافدا من عند الملك فامر الربيع ان يطوف به المدينة حتي ينظر اليها ويتاملها ويري سورها وابوابها ب وما حولها من العمارة ويصعد السور حتي يمشي عليه من اوله الي اخره ويريه قباب الابواب والطاقات وجميع ذلك ففعل الربيع ما امره به فلما دخل الي المنصور قال له كيف رايت مدينتي قال رايت حسنا ومدينة حصينة الا ان اعداءك معك فيها قال ومن هم قال السوقة يوافي الجاسوس من بعض الاطراف فيدخل لعلة ما يشتري فيتجسس الاخبار ويعرف ما يريد وينصرف من غير ان يعلم به فسكت المنصور فلما انصرف البطريق امر باخراج السوقة من المدينة وتقدم الي ابراهيم بن الحبيش الكوفي وخراش بن المسيب اليمامي بذلك وامرهما "
-        },
         "predictions": [
             {
                 "model_version": "passim_gaps",
                 "result": [
+                    {
+                        "id": "a-3",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 0,
+                            "end": 8,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-4.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 8,
+                            "end": 13,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-4.004",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 13,
+                            "end": 15,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-9",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 15,
+                            "end": 95,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-13.008",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 117,
+                            "end": 120,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-13.012",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 131,
+                            "end": 136,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-14",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 187,
+                            "end": 196,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-15.001",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 201,
+                            "end": 202,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-15.005",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 204,
+                            "end": 205,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-17",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 205,
+                            "end": 222,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-18.004",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 231,
+                            "end": 234,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-20",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 238,
+                            "end": 266,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-21.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 271,
+                            "end": 280,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-21.004",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 292,
+                            "end": 293,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-23",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 293,
+                            "end": 299,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-30.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 317,
+                            "end": 322,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-30.004",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 322,
+                            "end": 323,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-30.006",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 324,
+                            "end": 325,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-31",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 325,
+                            "end": 330,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-36",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 391,
+                            "end": 399,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-45",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 407,
+                            "end": 413,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-46",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 413,
+                            "end": 415,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-48",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 415,
+                            "end": 423,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-51",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 430,
+                            "end": 456,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-52.001",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 461,
+                            "end": 462,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-52.005",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 465,
+                            "end": 467,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-52.007",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 467,
+                            "end": 471,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-52.009",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 471,
+                            "end": 473,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-54",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 482,
+                            "end": 487,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-3",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 36,
+                            "end": 44,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-8.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 58,
+                            "end": 63,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-9",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 84,
+                            "end": 164,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-12.008",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 236,
+                            "end": 239,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-12.01",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 240,
+                            "end": 241,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-12.012",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 241,
+                            "end": 246,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-12.014",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 246,
+                            "end": 248,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-12.016",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 250,
+                            "end": 251,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-14",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 251,
+                            "end": 260,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-16.001",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 265,
+                            "end": 266,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-17",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 285,
+                            "end": 302,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-19.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 309,
+                            "end": 310,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-19.004",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 310,
+                            "end": 313,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-20",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 319,
+                            "end": 347,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-22.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 368,
+                            "end": 377,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-22.004",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 378,
+                            "end": 379,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-23",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 379,
+                            "end": 385,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-29.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 411,
+                            "end": 416,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-31",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 424,
+                            "end": 429,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-36",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 463,
+                            "end": 471,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-45",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 508,
+                            "end": 514,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-48",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 532,
+                            "end": 540,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-51",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 548,
+                            "end": 574,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-53.001",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 579,
+                            "end": 580,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-53.007",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 596,
+                            "end": 600,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-54",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 613,
+                            "end": 618,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-16",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 461,
+                            "end": 475,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-20.004",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 496,
+                            "end": 500,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-20.006",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 500,
+                            "end": 503,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-21",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 503,
+                            "end": 509,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-22.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 527,
+                            "end": 530,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-35",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 542,
+                            "end": 546,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-36.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 552,
+                            "end": 555,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-38",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 555,
+                            "end": 574,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 579,
+                            "end": 582,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-41",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 583,
+                            "end": 599,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-42.001",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 604,
+                            "end": 607,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-42.005",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 614,
+                            "end": 622,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-45",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 627,
+                            "end": 632,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-16",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 613,
+                            "end": 627,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-19.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 634,
+                            "end": 635,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-19.004",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 635,
+                            "end": 639,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-19.006",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 660,
+                            "end": 663,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-21",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 663,
+                            "end": 669,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-31.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 702,
+                            "end": 705,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-35",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 713,
+                            "end": 717,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-37.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 723,
+                            "end": 726,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-38",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 727,
+                            "end": 746,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-40.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 755,
+                            "end": 758,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-41",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 758,
+                            "end": 774,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-43.001",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 779,
+                            "end": 782,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-43.005",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 811,
+                            "end": 819,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-45",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 820,
+                            "end": 825,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-3",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 832,
+                            "end": 850,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-4.001",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 855,
+                            "end": 857,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-6",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 863,
+                            "end": 870,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-8",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 875,
+                            "end": 898,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-9.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 905,
+                            "end": 906,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-10",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 906,
+                            "end": 914,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-12",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 914,
+                            "end": 924,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-16.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 995,
+                            "end": 998,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-16.004",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 998,
+                            "end": 1001,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-17",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1005,
+                            "end": 1012,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-18.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1017,
+                            "end": 1018,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-18.004",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1018,
+                            "end": 1022,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-20",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1022,
+                            "end": 1031,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-21.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1032,
+                            "end": 1041,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-27",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1046,
+                            "end": 1051,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-29",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1056,
+                            "end": 1060,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-32",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1068,
+                            "end": 1080,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-33.001",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1085,
+                            "end": 1087,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-35",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1094,
+                            "end": 1099,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-38",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1100,
+                            "end": 1117,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.002",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1122,
+                            "end": 1123,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.004",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1123,
+                            "end": 1124,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.006",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1124,
+                            "end": 1125,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.008",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1126,
+                            "end": 1127,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.01",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1127,
+                            "end": 1129,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.012",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1130,
+                            "end": 1131,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.014",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1131,
+                            "end": 1133,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.016",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1133,
+                            "end": 1134,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.018",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1134,
+                            "end": 1135,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.02",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1135,
+                            "end": 1136,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.022",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1136,
+                            "end": 1137,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-39.028",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1140,
+                            "end": 1141,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-41",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 1141,
+                            "end": 1177,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-3",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 905,
+                            "end": 923,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-5.001",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 928,
+                            "end": 930,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-5.003",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 930,
+                            "end": 931,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-6",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 933,
+                            "end": 940,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-8",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 958,
+                            "end": 981,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-10",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 986,
+                            "end": 994,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-12",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1040,
+                            "end": 1050,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-15.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1056,
+                            "end": 1059,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-15.004",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1068,
+                            "end": 1071,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-17",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1071,
+                            "end": 1078,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-19.004",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1120,
+                            "end": 1124,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-20",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1124,
+                            "end": 1133,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-26.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1219,
+                            "end": 1228,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-27",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1228,
+                            "end": 1233,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-29",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1251,
+                            "end": 1255,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-31.001",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1255,
+                            "end": 1257,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-32",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1257,
+                            "end": 1269,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-34.001",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1274,
+                            "end": 1276,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-35",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1278,
+                            "end": 1283,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-38",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1284,
+                            "end": 1301,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-40.028",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1420,
+                            "end": 1421,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-41",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 1421,
+                            "end": 1457,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
                     {
                         "id": "11",
                         "from_name": "spans1",
@@ -56,8 +1819,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 0,
-                            "end": 18,
+                            "start": 832,
+                            "end": 850,
                             "labels": [
                                 "verbatim"
                             ]
@@ -69,8 +1832,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 23,
-                            "end": 25,
+                            "start": 855,
+                            "end": 857,
                             "labels": [
                                 "verbatim"
                             ]
@@ -82,8 +1845,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 31,
-                            "end": 38,
+                            "start": 863,
+                            "end": 870,
                             "labels": [
                                 "verbatim"
                             ]
@@ -95,8 +1858,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 43,
-                            "end": 66,
+                            "start": 875,
+                            "end": 898,
                             "labels": [
                                 "verbatim"
                             ]
@@ -108,8 +1871,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 73,
-                            "end": 74,
+                            "start": 905,
+                            "end": 906,
                             "labels": [
                                 "verbatim"
                             ]
@@ -121,8 +1884,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 74,
-                            "end": 82,
+                            "start": 906,
+                            "end": 914,
                             "labels": [
                                 "verbatim"
                             ]
@@ -134,8 +1897,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 82,
-                            "end": 92,
+                            "start": 914,
+                            "end": 924,
                             "labels": [
                                 "verbatim"
                             ]
@@ -147,8 +1910,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 163,
-                            "end": 166,
+                            "start": 995,
+                            "end": 998,
                             "labels": [
                                 "verbatim"
                             ]
@@ -160,8 +1923,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 166,
-                            "end": 169,
+                            "start": 998,
+                            "end": 1001,
                             "labels": [
                                 "verbatim"
                             ]
@@ -173,8 +1936,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 173,
-                            "end": 180,
+                            "start": 1005,
+                            "end": 1012,
                             "labels": [
                                 "verbatim"
                             ]
@@ -186,8 +1949,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 185,
-                            "end": 186,
+                            "start": 1017,
+                            "end": 1018,
                             "labels": [
                                 "verbatim"
                             ]
@@ -199,8 +1962,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 186,
-                            "end": 190,
+                            "start": 1018,
+                            "end": 1022,
                             "labels": [
                                 "verbatim"
                             ]
@@ -212,8 +1975,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 190,
-                            "end": 199,
+                            "start": 1022,
+                            "end": 1031,
                             "labels": [
                                 "verbatim"
                             ]
@@ -225,8 +1988,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 200,
-                            "end": 209,
+                            "start": 1032,
+                            "end": 1041,
                             "labels": [
                                 "verbatim"
                             ]
@@ -238,8 +2001,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 214,
-                            "end": 219,
+                            "start": 1046,
+                            "end": 1051,
                             "labels": [
                                 "verbatim"
                             ]
@@ -251,8 +2014,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 224,
-                            "end": 228,
+                            "start": 1056,
+                            "end": 1060,
                             "labels": [
                                 "verbatim"
                             ]
@@ -264,8 +2027,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 236,
-                            "end": 248,
+                            "start": 1068,
+                            "end": 1080,
                             "labels": [
                                 "verbatim"
                             ]
@@ -277,8 +2040,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 253,
-                            "end": 255,
+                            "start": 1085,
+                            "end": 1087,
                             "labels": [
                                 "verbatim"
                             ]
@@ -290,8 +2053,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 262,
-                            "end": 267,
+                            "start": 1094,
+                            "end": 1099,
                             "labels": [
                                 "verbatim"
                             ]
@@ -303,8 +2066,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 268,
-                            "end": 285,
+                            "start": 1100,
+                            "end": 1117,
                             "labels": [
                                 "verbatim"
                             ]
@@ -316,8 +2079,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 290,
-                            "end": 291,
+                            "start": 1122,
+                            "end": 1123,
                             "labels": [
                                 "verbatim"
                             ]
@@ -329,8 +2092,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 291,
-                            "end": 292,
+                            "start": 1123,
+                            "end": 1124,
                             "labels": [
                                 "verbatim"
                             ]
@@ -342,8 +2105,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 292,
-                            "end": 293,
+                            "start": 1124,
+                            "end": 1125,
                             "labels": [
                                 "verbatim"
                             ]
@@ -355,8 +2118,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 294,
-                            "end": 295,
+                            "start": 1126,
+                            "end": 1127,
                             "labels": [
                                 "verbatim"
                             ]
@@ -368,8 +2131,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 295,
-                            "end": 297,
+                            "start": 1127,
+                            "end": 1129,
                             "labels": [
                                 "verbatim"
                             ]
@@ -381,8 +2144,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 298,
-                            "end": 299,
+                            "start": 1130,
+                            "end": 1131,
                             "labels": [
                                 "verbatim"
                             ]
@@ -394,8 +2157,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 299,
-                            "end": 301,
+                            "start": 1131,
+                            "end": 1133,
                             "labels": [
                                 "verbatim"
                             ]
@@ -407,8 +2170,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 301,
-                            "end": 302,
+                            "start": 1133,
+                            "end": 1134,
                             "labels": [
                                 "verbatim"
                             ]
@@ -420,8 +2183,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 302,
-                            "end": 303,
+                            "start": 1134,
+                            "end": 1135,
                             "labels": [
                                 "verbatim"
                             ]
@@ -433,8 +2196,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 303,
-                            "end": 304,
+                            "start": 1135,
+                            "end": 1136,
                             "labels": [
                                 "verbatim"
                             ]
@@ -446,8 +2209,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 304,
-                            "end": 305,
+                            "start": 1136,
+                            "end": 1137,
                             "labels": [
                                 "verbatim"
                             ]
@@ -459,8 +2222,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 308,
-                            "end": 309,
+                            "start": 1140,
+                            "end": 1141,
                             "labels": [
                                 "verbatim"
                             ]
@@ -472,8 +2235,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 309,
-                            "end": 345,
+                            "start": 1141,
+                            "end": 1177,
                             "labels": [
                                 "verbatim"
                             ]
@@ -485,8 +2248,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 91,
-                            "end": 109,
+                            "start": 905,
+                            "end": 923,
                             "labels": [
                                 "verbatim"
                             ]
@@ -498,8 +2261,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 114,
-                            "end": 116,
+                            "start": 928,
+                            "end": 930,
                             "labels": [
                                 "verbatim"
                             ]
@@ -511,8 +2274,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 116,
-                            "end": 117,
+                            "start": 930,
+                            "end": 931,
                             "labels": [
                                 "verbatim"
                             ]
@@ -524,8 +2287,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 119,
-                            "end": 126,
+                            "start": 933,
+                            "end": 940,
                             "labels": [
                                 "verbatim"
                             ]
@@ -537,8 +2300,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 144,
-                            "end": 167,
+                            "start": 958,
+                            "end": 981,
                             "labels": [
                                 "verbatim"
                             ]
@@ -550,8 +2313,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 172,
-                            "end": 180,
+                            "start": 986,
+                            "end": 994,
                             "labels": [
                                 "verbatim"
                             ]
@@ -563,8 +2326,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 226,
-                            "end": 236,
+                            "start": 1040,
+                            "end": 1050,
                             "labels": [
                                 "verbatim"
                             ]
@@ -576,8 +2339,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 242,
-                            "end": 245,
+                            "start": 1056,
+                            "end": 1059,
                             "labels": [
                                 "verbatim"
                             ]
@@ -589,8 +2352,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 254,
-                            "end": 257,
+                            "start": 1068,
+                            "end": 1071,
                             "labels": [
                                 "verbatim"
                             ]
@@ -602,8 +2365,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 257,
-                            "end": 264,
+                            "start": 1071,
+                            "end": 1078,
                             "labels": [
                                 "verbatim"
                             ]
@@ -615,8 +2378,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 306,
-                            "end": 310,
+                            "start": 1120,
+                            "end": 1124,
                             "labels": [
                                 "verbatim"
                             ]
@@ -628,8 +2391,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 310,
-                            "end": 319,
+                            "start": 1124,
+                            "end": 1133,
                             "labels": [
                                 "verbatim"
                             ]
@@ -641,8 +2404,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 405,
-                            "end": 414,
+                            "start": 1219,
+                            "end": 1228,
                             "labels": [
                                 "verbatim"
                             ]
@@ -654,8 +2417,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 414,
-                            "end": 419,
+                            "start": 1228,
+                            "end": 1233,
                             "labels": [
                                 "verbatim"
                             ]
@@ -667,8 +2430,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 437,
-                            "end": 441,
+                            "start": 1251,
+                            "end": 1255,
                             "labels": [
                                 "verbatim"
                             ]
@@ -680,8 +2443,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 441,
-                            "end": 443,
+                            "start": 1255,
+                            "end": 1257,
                             "labels": [
                                 "verbatim"
                             ]
@@ -693,8 +2456,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 443,
-                            "end": 455,
+                            "start": 1257,
+                            "end": 1269,
                             "labels": [
                                 "verbatim"
                             ]
@@ -706,8 +2469,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 460,
-                            "end": 462,
+                            "start": 1274,
+                            "end": 1276,
                             "labels": [
                                 "verbatim"
                             ]
@@ -719,8 +2482,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 464,
-                            "end": 469,
+                            "start": 1278,
+                            "end": 1283,
                             "labels": [
                                 "verbatim"
                             ]
@@ -732,8 +2495,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 470,
-                            "end": 487,
+                            "start": 1284,
+                            "end": 1301,
                             "labels": [
                                 "verbatim"
                             ]
@@ -745,8 +2508,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 606,
-                            "end": 607,
+                            "start": 1420,
+                            "end": 1421,
                             "labels": [
                                 "verbatim"
                             ]
@@ -758,8 +2521,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 607,
-                            "end": 643,
+                            "start": 1421,
+                            "end": 1457,
                             "labels": [
                                 "verbatim"
                             ]
@@ -767,6 +2530,24 @@
                     }
                 ]
             }
-        ]
+        ],
+        "data": {
+            "book1": "0421Miskawayh.Tajarib",
+            "book2": "0365IbnFaqihHamadhani.Buldan",
+            "start_ms1": 827,
+            "start_ms2": 185,
+            "start1": 803,
+            "start2": 1569,
+            "end_ms1": 827,
+            "end_ms2": 186,
+            "end1": 1192,
+            "end2": 233,
+            "text1": "فقال له خالد ما اري ذلك يا امير المءمنين قال ولم قال لانه علم من اعلام الاسلام يستدل به الناظر علي انه لم يكن ليزال مثل اصحابه عنه بامر دنيا وانما هو امر دين ومع هذا يا امير المءمنين فان فيه مصلي علي بن ابي طالب عليه السلام قال هيهات يا خالد ابيت الا الميل الي اصحابك العجم وامر ان ينقض القصر الابيض فنقض ناحية منه ونظر في مقدار ما يلزمهم من النفقة للنقض والحمل فوجدوا ذلك اكثر من الجديد لو عمل فرفع ذلك الي المنصور فدعا بخالد فاعلمه ذلك وقال  ما تري قال يا امير المءمنين قد كنت اري قبل الا تفعل فاما اذ بدات فاري ان تتمم وتهدمه حتي تلحق بقواعده لءلا يقال عجزت عن هدم ما بناه غيرك فاعرض المنصور عنه وامر الا يهدم وكان اللبن الذي لبنه المنصور اللبنة منها ذراع في ذراع وقد وزنت لبنة منها بعد ما تهدم السور وكانت لبنة مكتوب عليها بمغرة وزنها ماءة وسبعة عشر رطلا فلما وزنت وجدت علي ما كان مكتوبا عليها من الوزن ولما استتم المنصور بناءها  قدم عليه بطريق من البطارقة وافدا فامر الربيع ان يطوف به في المدينة وما حولها ليري العمران والبناء فطاف به الربيع فلما انصرف قال كيف رايت وقد كان اصعد الي السور وقباب الابواب فقال رايت بناء حسنا الا اني رايت اعداءك معك في مدينتك قال فمن هم قال السوقة فاضب عليها ابو جعفر فلما انصرف البطريق امر باخراج السوق من ",
+            "text2": "وكان فيهم خالد بن برمك فلم يقل شيءا فقال له لم لا تكلم يا خالد وتشير بما عندك قال لا اري ذلك يا امير المءمنين قال ولم قال لانه علم من اعلام الاسلام يستدل به الناظر والوافد والملوك علي عظم شان اربابه وعن سلطانهم وان الاسلام قهرهم وازالهم عنه وايضا فان فيه مسجدا لامير المءمنين علي بن ابي طالب رضي الله عنه قال هيهات يا خالد ابيت الا التعصب لاصحابك والميل اليهم وامر بنقضه ونقض ما حوله من الابنية قال فنقض شء من ذلك وحمل اجره الي بغداد فوجدوا ان النفقة علي هدمه وحمله ومءونته اكثر مما ينفق علي الاجر الجديد اذا عمل فرفع ذلك الي المنصور فامر بتركه واحضر خالدا فعرفه الخبر وقال  لهms185 ما عندك في هذا فقال قد كنت اشرت علي امير المءمنين ان لا تعرض لشء من نقضه فلم يفعل فاما الان وقد ابتدا بذلك فما اري ان يكف عنه حتي يلحقه بقواعده لءلا يقال انه عجز عن هدم ما بناه غيره والهدم ايسر من البناء فتبسم المنصور وامر بترك ذلك  قال وامر المنصور ان تجعل الاسواق في طاقات المدينة ازاء كل باب سوقا فلم تزل علي ذلك مدة حتي قدم عليه بطريق من الروم وافدا من عند الملك فامر الربيع ان يطوف به المدينة حتي ينظر اليها ويتاملها ويري سورها وابوابها ب وما حولها من العمارة ويصعد السور حتي يمشي عليه من اوله الي اخره ويريه قباب الابواب والطاقات وجميع ذلك ففعل الربيع ما امره به فلما دخل الي المنصور قال له كيف رايت مدينتي قال رايت حسنا ومدينة حصينة الا ان اعداءك معك فيها قال ومن هم قال السوقة يوافي الجاسوس من بعض الاطراف فيدخل لعلة ما يشتري فيتجسس الاخبار ويعرف ما يريد وينصرف من غير ان يعلم به فسكت المنصور فلما انصرف البطريق امر باخراج السوقة من المدينة وتقدم الي ابراهيم بن الحبيش الكوفي وخراش بن المسيب اليمامي بذلك وامرهما ",
+            "text_before1": "فقال له خالد ما اري ذلك يا امير المءمنين قال ولم قال لانه علم من اعلام الاسلام يستدل به الناظر علي انه لم يكن ليزال مثل اصحابه عنه بامر دنيا وانما هو امر دين ومع هذا يا امير المءمنين فان فيه مصلي علي بن ابي طالب عليه السلام قال هيهات يا خالد ابيت الا الميل الي اصحابك العجم وامر ان ينقض القصر الابيض فنقض ناحية منه ونظر في مقدار ما يلزمهم من النفقة للنقض والحمل فوجدوا ذلك اكثر من الجديد لو عمل فرفع ذلك الي المنصور فدعا بخالد فاعلمه ذلك وقال ",
+            "text_before2": "وكان فيهم خالد بن برمك فلم يقل شيءا فقال له لم لا تكلم يا خالد وتشير بما عندك قال لا اري ذلك يا امير المءمنين قال ولم قال لانه علم من اعلام الاسلام يستدل به الناظر والوافد والملوك علي عظم شان اربابه وعن سلطانهم وان الاسلام قهرهم وازالهم عنه وايضا فان فيه مسجدا لامير المءمنين علي بن ابي طالب رضي الله عنه قال هيهات يا خالد ابيت الا التعصب لاصحابك والميل اليهم وامر بنقضه ونقض ما حوله من الابنية قال فنقض شء من ذلك وحمل اجره الي بغداد فوجدوا ان النفقة علي هدمه وحمله ومءونته اكثر مما ينفق علي الاجر الجديد اذا عمل فرفع ذلك الي المنصور فامر بتركه واحضر خالدا فعرفه الخبر وقال ",
+            "text_after1": "قدم عليه بطريق من البطارقة وافدا فامر الربيع ان يطوف به في المدينة وما حولها ليري العمران والبناء فطاف به الربيع فلما انصرف قال كيف رايت وقد كان اصعد الي السور وقباب الابواب فقال رايت بناء حسنا الا اني رايت اعداءك معك في مدينتك قال فمن هم قال السوقة فاضب عليها ابو جعفر فلما انصرف البطريق امر باخراج السوق من ",
+            "text_after2": "قال وامر المنصور ان تجعل الاسواق في طاقات المدينة ازاء كل باب سوقا فلم تزل علي ذلك مدة حتي قدم عليه بطريق من الروم وافدا من عند الملك فامر الربيع ان يطوف به المدينة حتي ينظر اليها ويتاملها ويري سورها وابوابها ب وما حولها من العمارة ويصعد السور حتي يمشي عليه من اوله الي اخره ويريه قباب الابواب والطاقات وجميع ذلك ففعل الربيع ما امره به فلما دخل الي المنصور قال له كيف رايت مدينتي قال رايت حسنا ومدينة حصينة الا ان اعداءك معك فيها قال ومن هم قال السوقة يوافي الجاسوس من بعض الاطراف فيدخل لعلة ما يشتري فيتجسس الاخبار ويعرف ما يريد وينصرف من غير ان يعلم به فسكت المنصور فلما انصرف البطريق امر باخراج السوقة من المدينة وتقدم الي ابراهيم بن الحبيش الكوفي وخراش بن المسيب اليمامي بذلك وامرهما "
+        }
     }
 ]
