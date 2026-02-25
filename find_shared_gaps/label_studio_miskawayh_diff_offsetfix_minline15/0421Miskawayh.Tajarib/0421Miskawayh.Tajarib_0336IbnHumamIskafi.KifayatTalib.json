@@ -634,8 +634,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 827,
-                            "end": 840,
+                            "start": 825,
+                            "end": 838,
                             "labels": [
                                 "verbatim"
                             ]
@@ -647,8 +647,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 845,
-                            "end": 846,
+                            "start": 843,
+                            "end": 844,
                             "labels": [
                                 "verbatim"
                             ]
@@ -660,8 +660,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 846,
-                            "end": 849,
+                            "start": 844,
+                            "end": 847,
                             "labels": [
                                 "verbatim"
                             ]
@@ -673,8 +673,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 857,
-                            "end": 860,
+                            "start": 855,
+                            "end": 858,
                             "labels": [
                                 "verbatim"
                             ]
@@ -686,8 +686,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 864,
-                            "end": 867,
+                            "start": 862,
+                            "end": 865,
                             "labels": [
                                 "verbatim"
                             ]
@@ -699,8 +699,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 868,
-                            "end": 874,
+                            "start": 866,
+                            "end": 872,
                             "labels": [
                                 "verbatim"
                             ]
@@ -712,8 +712,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 879,
-                            "end": 882,
+                            "start": 877,
+                            "end": 880,
                             "labels": [
                                 "verbatim"
                             ]
@@ -725,8 +725,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 885,
-                            "end": 886,
+                            "start": 883,
+                            "end": 884,
                             "labels": [
                                 "verbatim"
                             ]
@@ -738,8 +738,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 886,
-                            "end": 892,
+                            "start": 884,
+                            "end": 890,
                             "labels": [
                                 "verbatim"
                             ]
@@ -751,8 +751,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 892,
-                            "end": 897,
+                            "start": 890,
+                            "end": 895,
                             "labels": [
                                 "verbatim"
                             ]
@@ -764,8 +764,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 897,
-                            "end": 903,
+                            "start": 895,
+                            "end": 901,
                             "labels": [
                                 "verbatim"
                             ]
@@ -777,8 +777,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 908,
-                            "end": 909,
+                            "start": 906,
+                            "end": 907,
                             "labels": [
                                 "verbatim"
                             ]
@@ -790,8 +790,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 912,
-                            "end": 913,
+                            "start": 910,
+                            "end": 911,
                             "labels": [
                                 "verbatim"
                             ]
@@ -803,8 +803,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 913,
-                            "end": 923,
+                            "start": 911,
+                            "end": 921,
                             "labels": [
                                 "verbatim"
                             ]
@@ -816,8 +816,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 928,
-                            "end": 932,
+                            "start": 926,
+                            "end": 930,
                             "labels": [
                                 "verbatim"
                             ]
@@ -829,8 +829,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 932,
-                            "end": 933,
+                            "start": 930,
+                            "end": 931,
                             "labels": [
                                 "verbatim"
                             ]
@@ -842,8 +842,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 934,
-                            "end": 938,
+                            "start": 932,
+                            "end": 936,
                             "labels": [
                                 "verbatim"
                             ]
@@ -855,8 +855,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 938,
-                            "end": 939,
+                            "start": 936,
+                            "end": 937,
                             "labels": [
                                 "verbatim"
                             ]
@@ -868,8 +868,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 939,
-                            "end": 940,
+                            "start": 937,
+                            "end": 938,
                             "labels": [
                                 "verbatim"
                             ]
@@ -881,8 +881,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 941,
-                            "end": 949,
+                            "start": 939,
+                            "end": 947,
                             "labels": [
                                 "verbatim"
                             ]
@@ -894,8 +894,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 953,
-                            "end": 958,
+                            "start": 951,
+                            "end": 956,
                             "labels": [
                                 "verbatim"
                             ]
@@ -907,8 +907,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 963,
-                            "end": 964,
+                            "start": 961,
+                            "end": 962,
                             "labels": [
                                 "verbatim"
                             ]
@@ -920,8 +920,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 964,
-                            "end": 967,
+                            "start": 962,
+                            "end": 965,
                             "labels": [
                                 "verbatim"
                             ]
@@ -933,8 +933,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 967,
-                            "end": 977,
+                            "start": 965,
+                            "end": 975,
                             "labels": [
                                 "verbatim"
                             ]
@@ -946,8 +946,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 977,
-                            "end": 982,
+                            "start": 975,
+                            "end": 980,
                             "labels": [
                                 "verbatim"
                             ]
@@ -959,8 +959,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 987,
-                            "end": 989,
+                            "start": 985,
+                            "end": 987,
                             "labels": [
                                 "verbatim"
                             ]
@@ -972,8 +972,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 992,
-                            "end": 996,
+                            "start": 990,
+                            "end": 994,
                             "labels": [
                                 "verbatim"
                             ]
@@ -985,8 +985,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 996,
-                            "end": 997,
+                            "start": 994,
+                            "end": 995,
                             "labels": [
                                 "verbatim"
                             ]
@@ -998,8 +998,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 998,
-                            "end": 1010,
+                            "start": 996,
+                            "end": 1008,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1011,8 +1011,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1024,
-                            "end": 1025,
+                            "start": 1022,
+                            "end": 1023,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1024,8 +1024,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1025,
-                            "end": 1028,
+                            "start": 1023,
+                            "end": 1026,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1037,8 +1037,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1028,
-                            "end": 1037,
+                            "start": 1026,
+                            "end": 1035,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1050,8 +1050,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1660,
-                            "end": 1673,
+                            "start": 1709,
+                            "end": 1722,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1063,8 +1063,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1678,
-                            "end": 1679,
+                            "start": 1727,
+                            "end": 1728,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1076,8 +1076,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1682,
-                            "end": 1685,
+                            "start": 1731,
+                            "end": 1734,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1089,8 +1089,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1687,
-                            "end": 1690,
+                            "start": 1736,
+                            "end": 1739,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1102,8 +1102,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1699,
-                            "end": 1702,
+                            "start": 1748,
+                            "end": 1751,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1115,8 +1115,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1706,
-                            "end": 1712,
+                            "start": 1755,
+                            "end": 1761,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1128,8 +1128,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1721,
-                            "end": 1724,
+                            "start": 1770,
+                            "end": 1773,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1141,8 +1141,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1729,
-                            "end": 1730,
+                            "start": 1778,
+                            "end": 1779,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1154,8 +1154,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1730,
-                            "end": 1736,
+                            "start": 1779,
+                            "end": 1785,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1167,8 +1167,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1751,
-                            "end": 1756,
+                            "start": 1800,
+                            "end": 1805,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1180,8 +1180,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1756,
-                            "end": 1762,
+                            "start": 1805,
+                            "end": 1811,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1193,8 +1193,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1784,
-                            "end": 1794,
+                            "start": 1833,
+                            "end": 1843,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1206,8 +1206,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1812,
-                            "end": 1816,
+                            "start": 1861,
+                            "end": 1865,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1219,8 +1219,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1819,
-                            "end": 1823,
+                            "start": 1868,
+                            "end": 1872,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1232,8 +1232,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1863,
-                            "end": 1871,
+                            "start": 1912,
+                            "end": 1920,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1245,8 +1245,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1887,
-                            "end": 1892,
+                            "start": 1936,
+                            "end": 1941,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1258,8 +1258,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1910,
-                            "end": 1913,
+                            "start": 1959,
+                            "end": 1962,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1271,8 +1271,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1913,
-                            "end": 1923,
+                            "start": 1962,
+                            "end": 1972,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1284,8 +1284,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1926,
-                            "end": 1931,
+                            "start": 1975,
+                            "end": 1980,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1297,8 +1297,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1941,
-                            "end": 1945,
+                            "start": 1990,
+                            "end": 1994,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1310,8 +1310,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1951,
-                            "end": 1963,
+                            "start": 2000,
+                            "end": 2012,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1323,8 +1323,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2057,
-                            "end": 2060,
+                            "start": 2106,
+                            "end": 2109,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1336,8 +1336,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2080,
-                            "end": 2089,
+                            "start": 2129,
+                            "end": 2138,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1349,8 +1349,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1060,
-                            "end": 1063,
+                            "start": 1090,
+                            "end": 1093,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1362,8 +1362,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1072,
-                            "end": 1085,
+                            "start": 1102,
+                            "end": 1115,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1375,8 +1375,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1090,
-                            "end": 1092,
+                            "start": 1120,
+                            "end": 1122,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1388,8 +1388,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1119,
-                            "end": 1122,
+                            "start": 1149,
+                            "end": 1152,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1401,8 +1401,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1122,
-                            "end": 1123,
+                            "start": 1152,
+                            "end": 1153,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1414,8 +1414,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1123,
-                            "end": 1128,
+                            "start": 1153,
+                            "end": 1158,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1427,8 +1427,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1128,
-                            "end": 1147,
+                            "start": 1158,
+                            "end": 1177,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1440,8 +1440,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1152,
-                            "end": 1166,
+                            "start": 1182,
+                            "end": 1196,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1453,8 +1453,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1239,
-                            "end": 1244,
+                            "start": 1269,
+                            "end": 1274,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1466,8 +1466,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1260,
-                            "end": 1263,
+                            "start": 1290,
+                            "end": 1293,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1479,8 +1479,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1263,
-                            "end": 1264,
+                            "start": 1293,
+                            "end": 1294,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1492,8 +1492,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1273,
-                            "end": 1276,
+                            "start": 1303,
+                            "end": 1306,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1505,8 +1505,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1276,
-                            "end": 1277,
+                            "start": 1306,
+                            "end": 1307,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1518,8 +1518,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1277,
-                            "end": 1281,
+                            "start": 1307,
+                            "end": 1311,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1531,8 +1531,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1304,
-                            "end": 1309,
+                            "start": 1334,
+                            "end": 1339,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1544,8 +1544,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1384,
-                            "end": 1392,
+                            "start": 1414,
+                            "end": 1422,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1557,8 +1557,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1416,
-                            "end": 1420,
+                            "start": 1446,
+                            "end": 1450,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1570,8 +1570,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1425,
-                            "end": 1426,
+                            "start": 1455,
+                            "end": 1456,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1583,8 +1583,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2610,
-                            "end": 2613,
+                            "start": 2693,
+                            "end": 2696,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1596,8 +1596,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2624,
-                            "end": 2637,
+                            "start": 2707,
+                            "end": 2720,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1609,8 +1609,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2690,
-                            "end": 2691,
+                            "start": 2773,
+                            "end": 2774,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1622,8 +1622,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2691,
-                            "end": 2694,
+                            "start": 2774,
+                            "end": 2777,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1635,8 +1635,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2747,
-                            "end": 2752,
+                            "start": 2830,
+                            "end": 2835,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1648,8 +1648,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2752,
-                            "end": 2771,
+                            "start": 2835,
+                            "end": 2854,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1661,8 +1661,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2780,
-                            "end": 2794,
+                            "start": 2863,
+                            "end": 2877,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1674,8 +1674,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2795,
-                            "end": 2800,
+                            "start": 2878,
+                            "end": 2883,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1687,8 +1687,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2808,
-                            "end": 2809,
+                            "start": 2891,
+                            "end": 2892,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1700,8 +1700,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2809,
-                            "end": 2812,
+                            "start": 2892,
+                            "end": 2895,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1713,8 +1713,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2822,
-                            "end": 2823,
+                            "start": 2905,
+                            "end": 2906,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1726,8 +1726,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2823,
-                            "end": 2826,
+                            "start": 2906,
+                            "end": 2909,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1739,8 +1739,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2829,
-                            "end": 2833,
+                            "start": 2912,
+                            "end": 2916,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1752,8 +1752,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2837,
-                            "end": 2842,
+                            "start": 2920,
+                            "end": 2925,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1765,8 +1765,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2905,
-                            "end": 2913,
+                            "start": 2988,
+                            "end": 2996,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1778,8 +1778,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2921,
-                            "end": 2925,
+                            "start": 3004,
+                            "end": 3008,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1791,9 +1791,9 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 822,
-                            "end": 1052,
-                            "text": "ms0294 فخطبها فقالت لا اتزوجك حتي تشترط الي فقال ما شرطك قالت ثلاثة الاف وعبد وقينة وقتل علي قال هو لك وو الله ما وردت الا لقتل علي قالت فانا التمس لك من يساعدك علي امرك فطلبت له رجلا من قومها والتمس عبد الرحمان اخر فصاروا ثلاثة ",
+                            "start": 820,
+                            "end": 1082,
+                            "text": "وعبد فخطبها فقالت <br/>لا اتزوجك حتي تشترط الي فقال <br/>ما شرطك قالت ثلاثه الاف <br/>وقينه وقتل علي <br/>قال هو لك وو الله ما وردت الا <br/>لقتل علي قالت فانا <br/>التمس لك من يساعدك علي <br/>امرك فطلبت له رجلا من <br/>قومها والتمس عبد الرحمان اخر فصاروا ثلاثه",
                             "labels": [
                                 "Paraphrase"
                             ]
@@ -1805,9 +1805,9 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 459,
-                            "end": 2368,
-                            "text": "السلام فاما صاحب معاوية فانه قصده فلما وقعت عينه عليه ضربه فوقعت ضربته في اليته واخذ فجاء الطبيب اليه فنظر الي ضربته فقال له ان السيف مسموم فاختر اما ان احمي لك حديدة فاجعلها في الضربة واما ان اسقيك دواء فتبرا وينقطع نسلك قال اما النار فلا اطيقها واما النسل ففي يزيد وعبد الله ما يقر به عيني وحسبي بهما فسقاه دواء فعوفي وعالج جرحه حتي التام ولم يولد له بعد ذلك وقال له البرك ان لك عندي بشارة قال وما هي فاخبره خبر صاحبيه وقال له ان عليا يقتل في هذه الليلة فان قتل فانت ولي ما تراه من امري وان لم يقتل فاعطيك العهود والمواثيق اني امضي فاقتله ثم اعود اليك فلم يلتفت الي كلامه وقتله واما صاحب عمرو بن العاص فانه وافاه في تلك الليلة وقد وجد علة فاخذ دواء واستخلف رجلا يصلي بالناس يقال له خارجة بن ابي حبيبة احد بني عامر ابن لوي فخرج للصلاة وشد عليه عمرو بن بكر فضربه بسيفه فاثبته واخذ الرجل فاتي به عمرو بن العاص فقتله ودخل من الغد علي خارجة وهو يجود بنفسه فقال اما والله يا عمرو ما اراد غيرك قال عمرو لكن الله اراد خارجة واما ابن ملجم لعنه الله فاقبل حتي قدم مكة فلقي بها اصحابه وكتم امره مخافة ان ينتشر منه شيءا وانه زار رجلا من اصحابه ذات يوم منms255 تيم الرباب فصادف عنده قطام بنت الاخضر بن شحنة من تيم الرباب وكان علي عليه السلام قتل اباها واخاها بالنهروان وكانت من اجمل النساء فلما راها ابن ملجم شغف بها فخطبها فقالت له ما الذي تسمي لي من الصداق فقال لها ما بدا لك قالت انا محتكمة لك بثلاثة الاف درهم ووصيفة وخادم وقتل علي بن ابي طالب فقال لها لك جميع ما سالت واما قتل علي فاني لي بذلك والله ما اقدمني هذا المصر الا ما سالتني من قتل علي قالت له فانا طالبة لك بعض ما يساعدك علي ذلك ثم بعثت الي وردان بن مجالد من تيم الرباب فخبرته الخبر وسالته معونة ابن ملجم فتحمل ذلك لها وخرج ابن ملجم فاتي رجلا من اشجع يقال له شبيب بن بجرة فقال له يا شبيب هل لك في شرف الدنيا والاخرة فقال وما ذلك قال تساعدني علي قتل علي وكان شبيب علي راي الخوارج فقال له يا ابن ملجم هبلك الهبول لقد جءت شيءا اذا وكيف تقدر علي ذلك فقال له ابن ملجم نكمن له في المسجد الاعظم فاذا خرج لصلاة الفجر فتكنا به فقتلناه وشفينا انفسنا وادركنا ثارنا ",
+                            "start": 508,
+                            "end": 2451,
+                            "text": "السلام فاما صاحب معاويه فانه قصده فلما وقعت عينه عليه ضربه فوقعت ضربته في اليته واخذ فجاء الطبيب اليه فنظر الي ضربته فقال له ان السيف مسموم فاختر اما ان احمي لك حديده فاجعلها في الضربه واما ان اسقيك دواء فتبرا وينقطع نسلك قال اما النار فلا اطيقها واما النسل ففي يزيد وعبد الله ما يقر به عيني وحسبي بهما فسقاه دواء فعوفي وعالج جرحه حتي التام ولم يولد له بعد ذلك وقال له البرك ان لك عندي بشاره قال وما هي فاخبره خبر صاحبيه وقال له ان عليا يقتل في هذه الليله فان قتل فانت ولي ما تراه من امري وان لم يقتل فاعطيك العهود والمواثيق اني امضي فاقتله ثم اعود اليك فلم يلتفت الي كلامه وقتله واما صاحب عمرو بن العاص فانه وافاه في تلك الليله وقد وجد عله فاخذ دواء واستخلف رجلا يصلي بالناس يقال له خارجه بن ابي حبيبه احد بني عامر ابن لوي فخرج للصلاه وشد عليه عمرو بن بكر فضربه بسيفه فاثبته واخذ الرجل فاتي به عمرو بن العاص فقتله ودخل من الغد علي خارجه وهو يجود بنفسه فقال اما والله يا عمرو ما اراد غيرك قال عمرو لكن الله اراد خارجه واما ابن ملجم لعنه الله فاقبل حتي قدم مكه فلقي بها اصحابه وكتم امره مخافه ان ينتشر منه شيءا وانه زار رجلا من اصحابه ذات يوم من تيم الرباب فصادف عنده قطام بنت الاخضر بن شحنه من تيم الرباب وكان علي عليه السلام قتل اباها واخاها بالنهروان وكانت من اجمل النساء فلما راها ابن ملجم شغف بها فخطبها فقالت <br/>له ما الذي تسمي لي من الصداق فقال <br/>لها ما بدا لك قالت انا محتكمه لك بثلاثه الاف <br/>درهم ووصيفه وخادم وقتل علي <br/>بن ابي طالب فقال لها لك جميع ما سالت واما قتل علي فاني لي بذلك والله ما اقدمني هذا المصر الا <br/>ما سالتني من قتل علي قالت له فانا <br/>طالبه لك بعض ما يساعدك علي <br/>ذلك ثم بعثت الي وردان بن مجالد من تيم الرباب فخبرته الخبر وسالته معونه ابن ملجم فتحمل ذلك لها وخرج ابن ملجم فاتي رجلا من <br/>اشجع يقال له شبيب بن بجره فقال له يا شبيب هل لك في شرف الدنيا والاخره فقال وما ذلك قال تساعدني علي قتل علي وكان شبيب علي راي الخوارج فقال له يا ابن ملجم هبلك الهبول لقد جءت شيءا اذا وكيف تقدر علي ذلك فقال له ابن ملجم نكمن له في المسجد الاعظم فاذا خرج لصلاه الفجر فتكنا به فقتلناه وشفينا انفسنا وادركنا ثارنا",
                             "labels": [
                                 "Paraphrase"
                             ]
@@ -1819,8 +1819,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1060,
-                            "end": 1063,
+                            "start": 1090,
+                            "end": 1093,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1832,8 +1832,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1072,
-                            "end": 1085,
+                            "start": 1102,
+                            "end": 1115,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1845,8 +1845,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1090,
-                            "end": 1092,
+                            "start": 1120,
+                            "end": 1122,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1858,8 +1858,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1119,
-                            "end": 1122,
+                            "start": 1149,
+                            "end": 1152,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1871,8 +1871,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1122,
-                            "end": 1123,
+                            "start": 1152,
+                            "end": 1153,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1884,8 +1884,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1123,
-                            "end": 1128,
+                            "start": 1153,
+                            "end": 1158,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1897,8 +1897,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1128,
-                            "end": 1147,
+                            "start": 1158,
+                            "end": 1177,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1910,8 +1910,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1152,
-                            "end": 1166,
+                            "start": 1182,
+                            "end": 1196,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1923,8 +1923,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1239,
-                            "end": 1244,
+                            "start": 1269,
+                            "end": 1274,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1936,8 +1936,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1260,
-                            "end": 1263,
+                            "start": 1290,
+                            "end": 1293,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1949,8 +1949,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1263,
-                            "end": 1264,
+                            "start": 1293,
+                            "end": 1294,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1962,8 +1962,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1273,
-                            "end": 1276,
+                            "start": 1303,
+                            "end": 1306,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1975,8 +1975,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1276,
-                            "end": 1277,
+                            "start": 1306,
+                            "end": 1307,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1988,8 +1988,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1277,
-                            "end": 1281,
+                            "start": 1307,
+                            "end": 1311,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2001,8 +2001,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1304,
-                            "end": 1309,
+                            "start": 1334,
+                            "end": 1339,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2014,8 +2014,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1384,
-                            "end": 1392,
+                            "start": 1414,
+                            "end": 1422,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2027,8 +2027,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1416,
-                            "end": 1420,
+                            "start": 1446,
+                            "end": 1450,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2040,8 +2040,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1425,
-                            "end": 1426,
+                            "start": 1455,
+                            "end": 1456,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2053,8 +2053,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2610,
-                            "end": 2613,
+                            "start": 2693,
+                            "end": 2696,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2066,8 +2066,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2624,
-                            "end": 2637,
+                            "start": 2707,
+                            "end": 2720,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2079,8 +2079,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2690,
-                            "end": 2691,
+                            "start": 2773,
+                            "end": 2774,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2092,8 +2092,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2691,
-                            "end": 2694,
+                            "start": 2774,
+                            "end": 2777,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2105,8 +2105,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2747,
-                            "end": 2752,
+                            "start": 2830,
+                            "end": 2835,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2118,8 +2118,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2752,
-                            "end": 2771,
+                            "start": 2835,
+                            "end": 2854,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2131,8 +2131,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2780,
-                            "end": 2794,
+                            "start": 2863,
+                            "end": 2877,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2144,8 +2144,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2795,
-                            "end": 2800,
+                            "start": 2878,
+                            "end": 2883,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2157,8 +2157,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2808,
-                            "end": 2809,
+                            "start": 2891,
+                            "end": 2892,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2170,8 +2170,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2809,
-                            "end": 2812,
+                            "start": 2892,
+                            "end": 2895,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2183,8 +2183,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2822,
-                            "end": 2823,
+                            "start": 2905,
+                            "end": 2906,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2196,8 +2196,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2823,
-                            "end": 2826,
+                            "start": 2906,
+                            "end": 2909,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2209,8 +2209,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2829,
-                            "end": 2833,
+                            "start": 2912,
+                            "end": 2916,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2222,8 +2222,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2837,
-                            "end": 2842,
+                            "start": 2920,
+                            "end": 2925,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2235,8 +2235,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2905,
-                            "end": 2913,
+                            "start": 2988,
+                            "end": 2996,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2248,8 +2248,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 2921,
-                            "end": 2925,
+                            "start": 3004,
+                            "end": 3008,
                             "labels": [
                                 "verbatim"
                             ]
@@ -2269,12 +2269,12 @@
             "end_ms2": 256,
             "end1": 223,
             "end2": 859,
-            "text1": "الخوارج لقتل علي ومعاوية وعمرو بن العاص واجتمع بعد ذلك نفر ممن يري راي الخوارج فتذاكروا اصحاب النهر وترحموا عليهم وعابوا ولاتهم وقالوا ما نصنع بالبقاء بعدهم فلو قتلنا اءمة الضلال لرجونا الاجر والثواب فتحالف عبد الرحمان بن ملجم والبرك بن عبد الله وعمرو بن بكر التميمي ان ياتي كل واحد منهم واحدا من الاءمة الثلاثة يعنون عليا ومعاوية وعمرو بن العاص فيغتالونهم فاما ابن ملجم فقال انا اكفيكم علي بن ابي طالب وكان من اهل مصر وقال البرك بن عبد الله انا اكفيكم معاوية وقال عمرو بن بكر انا اكفيكم عمرو بن العاص فتعاهدوا وتواثقوا واخذوا اسيافهم وسموها واتعدوا لسبع عشرة من شهر رمضان ان يثب كل واحد منهم علي صاحبه الذي توجه له ما جري بين ابن ملجم وقطام في الكوفة وتعاونهما علي قتل علي فاما ابن ملجم فانه دخل الكوفة وراي امراة يقال لها قطام وكان علي قتل اباها واخاها يوم النهر وكانت فاءقة الجمال فالتبست بعقله ونسي حاجته التي جاء لها  ms0294 فخطبها فقالت لا اتزوجك حتي تشترط الي فقال ما شرطك قالت ثلاثة الاف وعبد وقينة وقتل علي قال هو لك وو الله ما وردت الا لقتل علي قالت فانا التمس لك من يساعدك علي امرك فطلبت له رجلا من قومها والتمس عبد الرحمان اخر فصاروا ثلاثة  واخذوا اسيافهم في الليلة التي واعد عبد الرحمان بن ملجم اصحابه وجلسوا مقابلي السدة التي يخرج منها علي للصلاة فلما خرج ضربه ابن ملجم واقرنه وهرب وتصايح الناس فاخذ ابن ملجم وحمل الي علي فلما رءاه قال اي عدو الله الم احسن اليك قال بلي قال فما حملك علي هذا قال شحذته اربعين صباحا فسالت الله ان يقتل به شر خلقه فقال علي لا اراك الا مقتولا به ولا اراك الا شر خلق الله ثم مات علي بن ابي طالب عليه السلام وذلك في شهر رمضان سنة اربعين قتل ابن ملجم وحرقه واحضر الحسن بن علي بن ابي طالب عليهما السلام ابن ملجم فلما دخل عليه قال هل لك في خصلة اني والله ما اعطيت الله عهدا الا وفيت به وكنت اعطيت الله عهدا عند الحطيم ان اقتل معاوية وعليا او اموت دونهما فان شءت خليت بيني وبينه ولك الله علي ان لم اقتله او قتلته ثم بقيت ان اتيك حتي اضع يدي في يدك فقال له الحسن اما والله حتي تعاين النار فلا ثم قدمه فضرب عنقه ثم اخذه الناس فادرجوه في بواري ثم احرقوه بالنار ",
-            "text2": "انا شرينا انفسنا لله عز وجل فاتينا اءمة الضلال وطلبنا عرتهم وارحنا منهم البلاد والعباد وثارنا باخواننا الشهداء بنهروان فتعاقدوا علي ذلك عند انقضاء الحج فقال عبد الرحمن بن ملجم المرادي لعنه الله انا اكفيكم عليا وقال البرك بن عبد الله التميمي انا اكفيكم معاوية وقال عمرو بن بكر التميمي انا اكفيكم عمرو بن العاص فتعاقدوا وتواثقوا علي الوفاء بان لا ينكل واحد منهم عن صاحبه الذي يتوجه اليه ولا عن قتله واتعدوا لشهر رمضان في الليلة التي قتل فيها ابن ملجم عليا عليه  السلام فاما صاحب معاوية فانه قصده فلما وقعت عينه عليه ضربه فوقعت ضربته في اليته واخذ فجاء الطبيب اليه فنظر الي ضربته فقال له ان السيف مسموم فاختر اما ان احمي لك حديدة فاجعلها في الضربة واما ان اسقيك دواء فتبرا وينقطع نسلك قال اما النار فلا اطيقها واما النسل ففي يزيد وعبد الله ما يقر به عيني وحسبي بهما فسقاه دواء فعوفي وعالج جرحه حتي التام ولم يولد له بعد ذلك وقال له البرك ان لك عندي بشارة قال وما هي فاخبره خبر صاحبيه وقال له ان عليا يقتل في هذه الليلة فان قتل فانت ولي ما تراه من امري وان لم يقتل فاعطيك العهود والمواثيق اني امضي فاقتله ثم اعود اليك فلم يلتفت الي كلامه وقتله واما صاحب عمرو بن العاص فانه وافاه في تلك الليلة وقد وجد علة فاخذ دواء واستخلف رجلا يصلي بالناس يقال له خارجة بن ابي حبيبة احد بني عامر ابن لوي فخرج للصلاة وشد عليه عمرو بن بكر فضربه بسيفه فاثبته واخذ الرجل فاتي به عمرو بن العاص فقتله ودخل من الغد علي خارجة وهو يجود بنفسه فقال اما والله يا عمرو ما اراد غيرك قال عمرو لكن الله اراد خارجة واما ابن ملجم لعنه الله فاقبل حتي قدم مكة فلقي بها اصحابه وكتم امره مخافة ان ينتشر منه شيءا وانه زار رجلا من اصحابه ذات يوم منms255 تيم الرباب فصادف عنده قطام بنت الاخضر بن شحنة من تيم الرباب وكان علي عليه السلام قتل اباها واخاها بالنهروان وكانت من اجمل النساء فلما راها ابن ملجم شغف بها فخطبها فقالت له ما الذي تسمي لي من الصداق فقال لها ما بدا لك قالت انا محتكمة لك بثلاثة الاف درهم ووصيفة وخادم وقتل علي بن ابي طالب فقال لها لك جميع ما سالت واما قتل علي فاني لي بذلك والله ما اقدمني هذا المصر الا ما سالتني من قتل علي قالت له فانا طالبة لك بعض ما يساعدك علي ذلك ثم بعثت الي وردان بن مجالد من تيم الرباب فخبرته الخبر وسالته معونة ابن ملجم فتحمل ذلك لها وخرج ابن ملجم فاتي رجلا من اشجع يقال له شبيب بن بجرة فقال له يا شبيب هل لك في شرف الدنيا والاخرة فقال وما ذلك قال تساعدني علي قتل علي وكان شبيب علي راي الخوارج فقال له يا ابن ملجم هبلك الهبول لقد جءت شيءا اذا وكيف تقدر علي ذلك فقال له ابن ملجم نكمن له في المسجد الاعظم فاذا خرج لصلاة الفجر فتكنا به فقتلناه وشفينا انفسنا وادركنا ثارنا  فاقبل معه حتي دخلا علي قطام وهي معتكفة في المسجد فقالا لها لقد اجتمع راينا علي قتل هذا الرجل قالت لهما فاذا اردتما ذلك فالقوني في هذا الموضع فانصرفوا من عندها فلبثوا اياما ثم اتوها ليلة الجمعة لتسع عشرة ليلة خلت من شهر رمضان سنة اربعين فقال لها ابن ملجم هذه الليلة التي وعدت فيها صاحبي وواعداني بان يقتل كل واحد منا صاحبه فدعت لهم بحرير فعصبت به صدورهم وتقلدوا سيوفهم ومضوا فجلسوا مقابلي السدة التي كان يخرج منها علي ع الي الصلاة فاقبل ينادي الصلاة الصلاة فما ادري انادي ام رايت برق السيف وسمعت قاءلا يقول لله الحكم يا علي لا لك ولا لاصحابك ",
-            "text_before1": "الخوارج لقتل علي ومعاوية وعمرو بن العاص واجتمع بعد ذلك نفر ممن يري راي الخوارج فتذاكروا اصحاب النهر وترحموا عليهم وعابوا ولاتهم وقالوا ما نصنع بالبقاء بعدهم فلو قتلنا اءمة الضلال لرجونا الاجر والثواب فتحالف عبد الرحمان بن ملجم والبرك بن عبد الله وعمرو بن بكر التميمي ان ياتي كل واحد منهم واحدا من الاءمة الثلاثة يعنون عليا ومعاوية وعمرو بن العاص فيغتالونهم فاما ابن ملجم فقال انا اكفيكم علي بن ابي طالب وكان من اهل مصر وقال البرك بن عبد الله انا اكفيكم معاوية وقال عمرو بن بكر انا اكفيكم عمرو بن العاص فتعاهدوا وتواثقوا واخذوا اسيافهم وسموها واتعدوا لسبع عشرة من شهر رمضان ان يثب كل واحد منهم علي صاحبه الذي توجه له ما جري بين ابن ملجم وقطام في الكوفة وتعاونهما علي قتل علي فاما ابن ملجم فانه دخل الكوفة وراي امراة يقال لها قطام وكان علي قتل اباها واخاها يوم النهر وكانت فاءقة الجمال فالتبست بعقله ونسي حاجته التي جاء لها ",
-            "text_before2": "انا شرينا انفسنا لله عز وجل فاتينا اءمة الضلال وطلبنا عرتهم وارحنا منهم البلاد والعباد وثارنا باخواننا الشهداء بنهروان فتعاقدوا علي ذلك عند انقضاء الحج فقال عبد الرحمن بن ملجم المرادي لعنه الله انا اكفيكم عليا وقال البرك بن عبد الله التميمي انا اكفيكم معاوية وقال عمرو بن بكر التميمي انا اكفيكم عمرو بن العاص فتعاقدوا وتواثقوا علي الوفاء بان لا ينكل واحد منهم عن صاحبه الذي يتوجه اليه ولا عن قتله واتعدوا لشهر رمضان في الليلة التي قتل فيها ابن ملجم عليا عليه ",
-            "text_after1": "واخذوا اسيافهم في الليلة التي واعد عبد الرحمان بن ملجم اصحابه وجلسوا مقابلي السدة التي يخرج منها علي للصلاة فلما خرج ضربه ابن ملجم واقرنه وهرب وتصايح الناس فاخذ ابن ملجم وحمل الي علي فلما رءاه قال اي عدو الله الم احسن اليك قال بلي قال فما حملك علي هذا قال شحذته اربعين صباحا فسالت الله ان يقتل به شر خلقه فقال علي لا اراك الا مقتولا به ولا اراك الا شر خلق الله ثم مات علي بن ابي طالب عليه السلام وذلك في شهر رمضان سنة اربعين قتل ابن ملجم وحرقه واحضر الحسن بن علي بن ابي طالب عليهما السلام ابن ملجم فلما دخل عليه قال هل لك في خصلة اني والله ما اعطيت الله عهدا الا وفيت به وكنت اعطيت الله عهدا عند الحطيم ان اقتل معاوية وعليا او اموت دونهما فان شءت خليت بيني وبينه ولك الله علي ان لم اقتله او قتلته ثم بقيت ان اتيك حتي اضع يدي في يدك فقال له الحسن اما والله حتي تعاين النار فلا ثم قدمه فضرب عنقه ثم اخذه الناس فادرجوه في بواري ثم احرقوه بالنار ",
-            "text_after2": "فاقبل معه حتي دخلا علي قطام وهي معتكفة في المسجد فقالا لها لقد اجتمع راينا علي قتل هذا الرجل قالت لهما فاذا اردتما ذلك فالقوني في هذا الموضع فانصرفوا من عندها فلبثوا اياما ثم اتوها ليلة الجمعة لتسع عشرة ليلة خلت من شهر رمضان سنة اربعين فقال لها ابن ملجم هذه الليلة التي وعدت فيها صاحبي وواعداني بان يقتل كل واحد منا صاحبه فدعت لهم بحرير فعصبت به صدورهم وتقلدوا سيوفهم ومضوا فجلسوا مقابلي السدة التي كان يخرج منها علي ع الي الصلاة فاقبل ينادي الصلاة الصلاة فما ادري انادي ام رايت برق السيف وسمعت قاءلا يقول لله الحكم يا علي لا لك ولا لاصحابك "
+            "text1": "ذلك نفر ممن يري راي الخوارج فتذاكروا اصحاب النهر وترحموا عليهم وعابوا ولاتهم وقالوا ما نصنع بالبقاء بعدهم فلو قتلنا اءمه الضلال <br/>لرجونا الاجر والثواب فتحالف عبد الرحم<br/>ان بن ملجم والبرك بن عبد الله وعمرو بن بكر التميمي ان ياتي كل واحد منهم واحدا من الاءمه الثلاثه يعنون عليا ومعاويه وعمرو بن العاص فيغتالونهم فاما ابن ملجم فقال انا اكفيكم<br/> علي بن ابي طالب وكان من اهل مصر وقال البرك بن عبد الله <br/>انا اكفيكم معاويه وقال عمرو بن بكر <br/>انا اكفيكم عمرو بن العاص فتعا<br/>هدوا وتواثقوا واخذوا اسيافهم وسموها واتعدوا <br/>لسبع عشره من شهر رمضان <br/>ان يثب كل واحد منهم علي صاحبه الذي توجه له ما جري بين ابن ملجم وقطام في <br/>الكوفه وتعاونهما علي قتل علي فاما ابن ملجم فانه دخل الكوفه وراي امراه يقال لها قطام وكان علي قتل اباها واخاها يوم النهر وكانت فاءقه الجمال فالتبست بعقله ونسي حاجته التي <br/>جاء لها وعبد فخطبها فقالت <br/>لا اتزوجك حتي تشترط الي فقال <br/>ما شرطك قالت ثلاثه الاف <br/>وقينه وقتل علي <br/>قال هو لك وو الله ما وردت الا <br/>لقتل علي قالت فانا <br/>التمس لك من يساعدك علي <br/>امرك فطلبت له رجلا من <br/>قومها والتمس عبد الرحمان اخر فصاروا ثلاثه قتل واخذوا اسيافهم في الليله التي <br/>واعد عبد الرحمان بن ملجم اصحابه وجلسوا مقابلي السده التي <br/>يخرج منها علي للصلاه فلما خرج ضربه ابن ملجم واقرنه وهرب وتصايح الناس فاخذ ابن ملجم وحمل الي <br/>علي فلما رءاه قال اي عدو الله الم احسن اليك قال بلي قال فما <br/>حملك علي هذا قال شحذته اربعين صباحا فسالت الله ان يقتل به شر خلقه فقال علي لا <br/>اراك الا مقتولا به ولا <br/>اراك الا شر خلق الله ثم مات علي بن ابي طالب عليه السلام وذلك في شهر رمضان سنه اربعين ابن ملجم وحرقه واحضر الحسن بن علي بن ابي طالب عليهما السلام ابن ملجم فلما دخل عليه قال هل لك في خصله اني والله ما اعطيت الله عهدا الا وفيت به وكنت اعطيت الله عهدا عند الحطيم ان اقتل معاويه وعليا او اموت دونهما فان شءت خليت بيني وبينه ولك الله علي ان لم اقتله او قتلته ثم بقيت ان اتيك حتي اضع يدي في يدك فقال له الحسن اما والله حتي تعاين النار فلا ثم قدمه فضرب عنقه ثم اخذه الناس فادرجوه في بواري ثم احرقوه بالنار",
+            "text2": "انا شرينا انفسنا لله عز وجل فاتينا اءمه الضلال <br/>وطلبنا عرتهم وارحنا منهم البلاد والعباد وثارنا باخواننا الشهداء بنهروان فتعاقدوا علي ذلك عند انقضاء الحج فقال عبد الرحم<br/>ن بن ملجم المرادي لعنه الله انا اكفيكم<br/> عليا وقال البرك بن عبد الله <br/>التميمي انا اكفيكم معاويه وقال عمرو بن بكر <br/>التميمي انا اكفيكم عمرو بن العاص فتعا<br/>قدوا وتواثقوا علي الوفاء بان لا ينكل واحد منهم عن صاحبه الذي يتوجه اليه ولا عن قتله واتعدوا <br/>لشهر رمضان <br/>في <br/>الليله التي <br/>قتل فيها ابن ملجم عليا عليه السلام فاما صاحب معاويه فانه قصده فلما وقعت عينه عليه ضربه فوقعت ضربته في اليته واخذ فجاء الطبيب اليه فنظر الي ضربته فقال له ان السيف مسموم فاختر اما ان احمي لك حديده فاجعلها في الضربه واما ان اسقيك دواء فتبرا وينقطع نسلك قال اما النار فلا اطيقها واما النسل ففي يزيد وعبد الله ما يقر به عيني وحسبي بهما فسقاه دواء فعوفي وعالج جرحه حتي التام ولم يولد له بعد ذلك وقال له البرك ان لك عندي بشاره قال وما هي فاخبره خبر صاحبيه وقال له ان عليا يقتل في هذه الليله فان قتل فانت ولي ما تراه من امري وان لم يقتل فاعطيك العهود والمواثيق اني امضي فاقتله ثم اعود اليك فلم يلتفت الي كلامه وقتله واما صاحب عمرو بن العاص فانه وافاه في تلك الليله وقد وجد عله فاخذ دواء واستخلف رجلا يصلي بالناس يقال له خارجه بن ابي حبيبه احد بني عامر ابن لوي فخرج للصلاه وشد عليه عمرو بن بكر فضربه بسيفه فاثبته واخذ الرجل فاتي به عمرو بن العاص فقتله ودخل من الغد علي خارجه وهو يجود بنفسه فقال اما والله يا عمرو ما اراد غيرك قال عمرو لكن الله اراد خارجه واما ابن ملجم لعنه الله فاقبل حتي قدم مكه فلقي بها اصحابه وكتم امره مخافه ان ينتشر منه شيءا وانه زار رجلا من اصحابه ذات يوم من تيم الرباب فصادف عنده قطام بنت الاخضر بن شحنه من تيم الرباب وكان علي عليه السلام قتل اباها واخاها بالنهروان وكانت من اجمل النساء فلما راها ابن ملجم شغف بها فخطبها فقالت <br/>له ما الذي تسمي لي من الصداق فقال <br/>لها ما بدا لك قالت انا محتكمه لك بثلاثه الاف <br/>درهم ووصيفه وخادم وقتل علي <br/>بن ابي طالب فقال لها لك جميع ما سالت واما قتل علي فاني لي بذلك والله ما اقدمني هذا المصر الا <br/>ما سالتني من قتل علي قالت له فانا <br/>طالبه لك بعض ما يساعدك علي <br/>ذلك ثم بعثت الي وردان بن مجالد من تيم الرباب فخبرته الخبر وسالته معونه ابن ملجم فتحمل ذلك لها وخرج ابن ملجم فاتي رجلا من <br/>اشجع يقال له شبيب بن بجره فقال له يا شبيب هل لك في شرف الدنيا والاخره فقال وما ذلك قال تساعدني علي قتل علي وكان شبيب علي راي الخوارج فقال له يا ابن ملجم هبلك الهبول لقد جءت شيءا اذا وكيف تقدر علي ذلك فقال له ابن ملجم نكمن له في المسجد الاعظم فاذا خرج لصلاه الفجر فتكنا به فقتلناه وشفينا انفسنا وادركنا ثارنا فاقبل معه حتي دخلا علي قطام وهي معتكفه في المسجد فقالا لها لقد اجتمع راينا علي قتل هذا الرجل قالت لهما فاذا اردتما ذلك فالقوني في هذا الموضع فانصرفوا من عندها فلبثوا اياما ثم اتوها ليله الجمعه لتسع عشره ليله خلت من شهر رمضان سنه اربعين فقال لها ابن ملجم هذه الليله التي <br/>وعدت فيها صاحبي وواعداني بان يقتل كل واحد منا صاحبه فدعت لهم بحرير فعصبت به صدورهم وتقلدوا سيوفهم ومضوا فجلسوا مقابلي السده التي <br/>كان يخرج منها علي ع الي <br/>الصلاه فاقبل ينادي الصلاه الصلاه فما <br/>ادري انادي ام رايت برق السيف وسمعت قاءلا يقول لله الحكم يا علي لا <br/>لك ولا <br/>لاصحابك",
+            "text_before1": "ذلك نفر ممن يري راي الخوارج فتذاكروا اصحاب النهر وترحموا عليهم وعابوا ولاتهم وقالوا ما نصنع بالبقاء بعدهم فلو قتلنا اءمه الضلال <br/>لرجونا الاجر والثواب فتحالف عبد الرحم<br/>ان بن ملجم والبرك بن عبد الله وعمرو بن بكر التميمي ان ياتي كل واحد منهم واحدا من الاءمه الثلاثه يعنون عليا ومعاويه وعمرو بن العاص فيغتالونهم فاما ابن ملجم فقال انا اكفيكم<br/> علي بن ابي طالب وكان من اهل مصر وقال البرك بن عبد الله <br/>انا اكفيكم معاويه وقال عمرو بن بكر <br/>انا اكفيكم عمرو بن العاص فتعا<br/>هدوا وتواثقوا واخذوا اسيافهم وسموها واتعدوا <br/>لسبع عشره من شهر رمضان <br/>ان يثب كل واحد منهم علي صاحبه الذي توجه له ما جري بين ابن ملجم وقطام في <br/>الكوفه وتعاونهما علي قتل علي فاما ابن ملجم فانه دخل الكوفه وراي امراه يقال لها قطام وكان علي قتل اباها واخاها يوم النهر وكانت فاءقه الجمال فالتبست بعقله ونسي حاجته التي <br/>جاء لها",
+            "text_before2": "انا شرينا انفسنا لله عز وجل فاتينا اءمه الضلال <br/>وطلبنا عرتهم وارحنا منهم البلاد والعباد وثارنا باخواننا الشهداء بنهروان فتعاقدوا علي ذلك عند انقضاء الحج فقال عبد الرحم<br/>ن بن ملجم المرادي لعنه الله انا اكفيكم<br/> عليا وقال البرك بن عبد الله <br/>التميمي انا اكفيكم معاويه وقال عمرو بن بكر <br/>التميمي انا اكفيكم عمرو بن العاص فتعا<br/>قدوا وتواثقوا علي الوفاء بان لا ينكل واحد منهم عن صاحبه الذي يتوجه اليه ولا عن قتله واتعدوا <br/>لشهر رمضان <br/>في <br/>الليله التي <br/>قتل فيها ابن ملجم عليا عليه",
+            "text_after1": "قتل واخذوا اسيافهم في الليله التي <br/>واعد عبد الرحمان بن ملجم اصحابه وجلسوا مقابلي السده التي <br/>يخرج منها علي للصلاه فلما خرج ضربه ابن ملجم واقرنه وهرب وتصايح الناس فاخذ ابن ملجم وحمل الي <br/>علي فلما رءاه قال اي عدو الله الم احسن اليك قال بلي قال فما <br/>حملك علي هذا قال شحذته اربعين صباحا فسالت الله ان يقتل به شر خلقه فقال علي لا <br/>اراك الا مقتولا به ولا <br/>اراك الا شر خلق الله ثم مات علي بن ابي طالب عليه السلام وذلك في شهر رمضان سنه اربعين ابن ملجم وحرقه واحضر الحسن بن علي بن ابي طالب عليهما السلام ابن ملجم فلما دخل عليه قال هل لك في خصله اني والله ما اعطيت الله عهدا الا وفيت به وكنت اعطيت الله عهدا عند الحطيم ان اقتل معاويه وعليا او اموت دونهما فان شءت خليت بيني وبينه ولك الله علي ان لم اقتله او قتلته ثم بقيت ان اتيك حتي اضع يدي في يدك فقال له الحسن اما والله حتي تعاين النار فلا ثم قدمه فضرب عنقه ثم اخذه الناس فادرجوه في بواري ثم احرقوه بالنار",
+            "text_after2": "فاقبل معه حتي دخلا علي قطام وهي معتكفه في المسجد فقالا لها لقد اجتمع راينا علي قتل هذا الرجل قالت لهما فاذا اردتما ذلك فالقوني في هذا الموضع فانصرفوا من عندها فلبثوا اياما ثم اتوها ليله الجمعه لتسع عشره ليله خلت من شهر رمضان سنه اربعين فقال لها ابن ملجم هذه الليله التي <br/>وعدت فيها صاحبي وواعداني بان يقتل كل واحد منا صاحبه فدعت لهم بحرير فعصبت به صدورهم وتقلدوا سيوفهم ومضوا فجلسوا مقابلي السده التي <br/>كان يخرج منها علي ع الي <br/>الصلاه فاقبل ينادي الصلاه الصلاه فما <br/>ادري انادي ام رايت برق السيف وسمعت قاءلا يقول لله الحكم يا علي لا <br/>لك ولا <br/>لاصحابك"
         }
     }
 ]

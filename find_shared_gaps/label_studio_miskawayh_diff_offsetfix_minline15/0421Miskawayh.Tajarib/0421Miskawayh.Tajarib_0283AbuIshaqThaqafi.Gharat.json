@@ -478,8 +478,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 281,
-                            "end": 287,
+                            "start": 325,
+                            "end": 331,
                             "labels": [
                                 "verbatim"
                             ]
@@ -491,8 +491,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 287,
-                            "end": 288,
+                            "start": 331,
+                            "end": 332,
                             "labels": [
                                 "verbatim"
                             ]
@@ -504,8 +504,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 288,
-                            "end": 290,
+                            "start": 332,
+                            "end": 334,
                             "labels": [
                                 "verbatim"
                             ]
@@ -517,8 +517,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 297,
-                            "end": 301,
+                            "start": 341,
+                            "end": 345,
                             "labels": [
                                 "verbatim"
                             ]
@@ -530,8 +530,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 409,
-                            "end": 415,
+                            "start": 453,
+                            "end": 459,
                             "labels": [
                                 "verbatim"
                             ]
@@ -543,8 +543,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 859,
-                            "end": 863,
+                            "start": 903,
+                            "end": 907,
                             "labels": [
                                 "verbatim"
                             ]
@@ -556,8 +556,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 323,
-                            "end": 330,
+                            "start": 371,
+                            "end": 378,
                             "labels": [
                                 "verbatim"
                             ]
@@ -569,8 +569,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 333,
-                            "end": 338,
+                            "start": 381,
+                            "end": 386,
                             "labels": [
                                 "verbatim"
                             ]
@@ -582,8 +582,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 338,
-                            "end": 355,
+                            "start": 386,
+                            "end": 403,
                             "labels": [
                                 "verbatim"
                             ]
@@ -595,8 +595,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 360,
-                            "end": 361,
+                            "start": 408,
+                            "end": 409,
                             "labels": [
                                 "verbatim"
                             ]
@@ -608,8 +608,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 361,
-                            "end": 362,
+                            "start": 409,
+                            "end": 410,
                             "labels": [
                                 "verbatim"
                             ]
@@ -617,84 +617,6 @@
                     },
                     {
                         "id": "a-8.002",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 371,
-                            "end": 375,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-8.004",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 375,
-                            "end": 376,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-9",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 391,
-                            "end": 407,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-10.001",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 412,
-                            "end": 413,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-10.003",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 414,
-                            "end": 417,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-10.005",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 418,
-                            "end": 419,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-12",
                         "from_name": "spans1",
                         "to_name": "text1",
                         "type": "labels",
@@ -707,13 +629,91 @@
                         }
                     },
                     {
-                        "id": "a-13.001",
+                        "id": "a-8.004",
                         "from_name": "spans1",
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
                             "start": 423,
-                            "end": 426,
+                            "end": 424,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-9",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 439,
+                            "end": 455,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-10.001",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 460,
+                            "end": 461,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-10.003",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 462,
+                            "end": 465,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-10.005",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 466,
+                            "end": 467,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-12",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 467,
+                            "end": 471,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-13.001",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 471,
+                            "end": 474,
                             "labels": [
                                 "verbatim"
                             ]
@@ -725,8 +725,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 426,
-                            "end": 428,
+                            "start": 474,
+                            "end": 476,
                             "labels": [
                                 "verbatim"
                             ]
@@ -738,8 +738,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 428,
-                            "end": 429,
+                            "start": 476,
+                            "end": 477,
                             "labels": [
                                 "verbatim"
                             ]
@@ -751,8 +751,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 436,
-                            "end": 450,
+                            "start": 484,
+                            "end": 498,
                             "labels": [
                                 "verbatim"
                             ]
@@ -764,8 +764,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 455,
-                            "end": 456,
+                            "start": 503,
+                            "end": 504,
                             "labels": [
                                 "verbatim"
                             ]
@@ -777,8 +777,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 492,
-                            "end": 499,
+                            "start": 540,
+                            "end": 547,
                             "labels": [
                                 "verbatim"
                             ]
@@ -790,8 +790,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 504,
-                            "end": 512,
+                            "start": 552,
+                            "end": 560,
                             "labels": [
                                 "verbatim"
                             ]
@@ -803,8 +803,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 516,
-                            "end": 534,
+                            "start": 564,
+                            "end": 582,
                             "labels": [
                                 "verbatim"
                             ]
@@ -816,8 +816,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 913,
-                            "end": 915,
+                            "start": 955,
+                            "end": 957,
                             "labels": [
                                 "verbatim"
                             ]
@@ -829,8 +829,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 915,
-                            "end": 922,
+                            "start": 957,
+                            "end": 964,
                             "labels": [
                                 "verbatim"
                             ]
@@ -842,8 +842,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 922,
-                            "end": 927,
+                            "start": 964,
+                            "end": 969,
                             "labels": [
                                 "verbatim"
                             ]
@@ -855,8 +855,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 930,
-                            "end": 947,
+                            "start": 972,
+                            "end": 989,
                             "labels": [
                                 "verbatim"
                             ]
@@ -868,8 +868,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1050,
-                            "end": 1054,
+                            "start": 1092,
+                            "end": 1096,
                             "labels": [
                                 "verbatim"
                             ]
@@ -881,8 +881,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1067,
-                            "end": 1083,
+                            "start": 1109,
+                            "end": 1125,
                             "labels": [
                                 "verbatim"
                             ]
@@ -894,8 +894,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1088,
-                            "end": 1089,
+                            "start": 1130,
+                            "end": 1131,
                             "labels": [
                                 "verbatim"
                             ]
@@ -907,8 +907,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1093,
-                            "end": 1096,
+                            "start": 1135,
+                            "end": 1138,
                             "labels": [
                                 "verbatim"
                             ]
@@ -920,8 +920,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1099,
-                            "end": 1103,
+                            "start": 1141,
+                            "end": 1145,
                             "labels": [
                                 "verbatim"
                             ]
@@ -933,8 +933,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1103,
-                            "end": 1106,
+                            "start": 1145,
+                            "end": 1148,
                             "labels": [
                                 "verbatim"
                             ]
@@ -946,8 +946,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1130,
-                            "end": 1144,
+                            "start": 1172,
+                            "end": 1186,
                             "labels": [
                                 "verbatim"
                             ]
@@ -959,8 +959,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1164,
-                            "end": 1171,
+                            "start": 1206,
+                            "end": 1213,
                             "labels": [
                                 "verbatim"
                             ]
@@ -972,8 +972,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1179,
-                            "end": 1187,
+                            "start": 1221,
+                            "end": 1229,
                             "labels": [
                                 "verbatim"
                             ]
@@ -985,8 +985,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1190,
-                            "end": 1208,
+                            "start": 1232,
+                            "end": 1250,
                             "labels": [
                                 "verbatim"
                             ]
@@ -998,9 +998,9 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 281,
-                            "end": 317,
-                            "text": "يومءذ يعظم عليه قتل عثمان ويذكر له ",
+                            "start": 325,
+                            "end": 365,
+                            "text": "يومءذ يعظم عليه قتل <br/>عثمان ويذكر له",
                             "labels": [
                                 "Paraphrase"
                             ]
@@ -1012,9 +1012,9 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 397,
-                            "end": 914,
-                            "text": "ms131 عليه السلام يومءذ بالكوفة قبل ان يسير الي صفين بسم الله الرحمن الرحيم من معاوية بن ابي سفيان الي قيس ين سعد سلام عليك فاني احمد اليك الله الذي لا اله الا هو اما بعد فانكم ان كنتم نقمتم علي عثمان في اثرة رايتموها او في ضربة سوط رايتموه ضربها او في شتمة رجل او تعييره واحدا او في استعماله الفتيان من اهله فانكم قد علمتم ان كنتم تعلمون ان دمه لم يحل لكم بذلك فقد ركبتم عظيما من الامر وجءتم شيءا ادا فتب الي ربك يا قيس ان كنت من المجلبين علي عثمان ان كانت التوبة من قتل المءمن تغني شيءا واما صاحبك فانا قد استيقنا ",
+                            "start": 441,
+                            "end": 956,
+                            "text": "عليه السلام يومءذ بالكوفه قبل ان يسير الي صفين بسم الله الرحمن الرحيم من معاويه بن ابي سفيان الي قيس ين سعد سلام عليك فاني احمد اليك الله الذي لا اله الا هو اما بعد فانكم ان كنتم نقمتم علي عثمان في اثره رايتموها او في ضربه سوط رايتموه ضربها او في شتمه رجل او تعييره واحدا او في استعماله الفتيان من اهله فانكم قد علمتم ان كنتم تعلمون ان دمه لم يحل لكم بذلك فقد ركبتم عظيما من الامر وجءتم شيءا ادا فتب الي ربك يا قيس ان كنت من المجلبين علي عثمان ان كانت التوبه من قتل <br/>المءمن تغني شيءا واما صاحبك فانا قد استيقنا",
                             "labels": [
                                 "Paraphrase"
                             ]
@@ -1026,8 +1026,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 323,
-                            "end": 330,
+                            "start": 371,
+                            "end": 378,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1039,8 +1039,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 333,
-                            "end": 338,
+                            "start": 381,
+                            "end": 386,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1052,8 +1052,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 338,
-                            "end": 355,
+                            "start": 386,
+                            "end": 403,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1065,8 +1065,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 360,
-                            "end": 361,
+                            "start": 408,
+                            "end": 409,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1078,8 +1078,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 361,
-                            "end": 362,
+                            "start": 409,
+                            "end": 410,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1087,84 +1087,6 @@
                     },
                     {
                         "id": "a-8.002",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 371,
-                            "end": 375,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-8.004",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 375,
-                            "end": 376,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-9",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 391,
-                            "end": 407,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-10.001",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 412,
-                            "end": 413,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-10.003",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 414,
-                            "end": 417,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-10.005",
-                        "from_name": "spans1",
-                        "to_name": "text1",
-                        "type": "labels",
-                        "value": {
-                            "start": 418,
-                            "end": 419,
-                            "labels": [
-                                "verbatim"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a-12",
                         "from_name": "spans1",
                         "to_name": "text1",
                         "type": "labels",
@@ -1177,13 +1099,91 @@
                         }
                     },
                     {
-                        "id": "a-13.001",
+                        "id": "a-8.004",
                         "from_name": "spans1",
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
                             "start": 423,
-                            "end": 426,
+                            "end": 424,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-9",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 439,
+                            "end": 455,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-10.001",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 460,
+                            "end": 461,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-10.003",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 462,
+                            "end": 465,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-10.005",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 466,
+                            "end": 467,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-12",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 467,
+                            "end": 471,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a-13.001",
+                        "from_name": "spans1",
+                        "to_name": "text1",
+                        "type": "labels",
+                        "value": {
+                            "start": 471,
+                            "end": 474,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1195,8 +1195,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 426,
-                            "end": 428,
+                            "start": 474,
+                            "end": 476,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1208,8 +1208,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 428,
-                            "end": 429,
+                            "start": 476,
+                            "end": 477,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1221,8 +1221,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 436,
-                            "end": 450,
+                            "start": 484,
+                            "end": 498,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1234,8 +1234,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 455,
-                            "end": 456,
+                            "start": 503,
+                            "end": 504,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1247,8 +1247,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 492,
-                            "end": 499,
+                            "start": 540,
+                            "end": 547,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1260,8 +1260,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 504,
-                            "end": 512,
+                            "start": 552,
+                            "end": 560,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1273,8 +1273,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 516,
-                            "end": 534,
+                            "start": 564,
+                            "end": 582,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1286,8 +1286,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 913,
-                            "end": 915,
+                            "start": 955,
+                            "end": 957,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1299,8 +1299,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 915,
-                            "end": 922,
+                            "start": 957,
+                            "end": 964,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1312,8 +1312,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 922,
-                            "end": 927,
+                            "start": 964,
+                            "end": 969,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1325,8 +1325,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 930,
-                            "end": 947,
+                            "start": 972,
+                            "end": 989,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1338,8 +1338,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1050,
-                            "end": 1054,
+                            "start": 1092,
+                            "end": 1096,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1351,8 +1351,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1067,
-                            "end": 1083,
+                            "start": 1109,
+                            "end": 1125,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1364,8 +1364,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1088,
-                            "end": 1089,
+                            "start": 1130,
+                            "end": 1131,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1377,8 +1377,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1093,
-                            "end": 1096,
+                            "start": 1135,
+                            "end": 1138,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1390,8 +1390,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1099,
-                            "end": 1103,
+                            "start": 1141,
+                            "end": 1145,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1403,8 +1403,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1103,
-                            "end": 1106,
+                            "start": 1145,
+                            "end": 1148,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1416,8 +1416,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1130,
-                            "end": 1144,
+                            "start": 1172,
+                            "end": 1186,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1429,8 +1429,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1164,
-                            "end": 1171,
+                            "start": 1206,
+                            "end": 1213,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1442,8 +1442,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1179,
-                            "end": 1187,
+                            "start": 1221,
+                            "end": 1229,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1455,8 +1455,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1190,
-                            "end": 1208,
+                            "start": 1232,
+                            "end": 1250,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1476,12 +1476,12 @@
             "end_ms2": 132,
             "end1": 1297,
             "end2": 511,
-            "text1": "فجبي الخراج لا ينازعه احد وخرج امير المءمنين الي اهل الجمل وهو علي مصر ورجع الي ارض الكوفة من البصرة وهو بمكانه فكان اثقل خلق الله علي معاوية لقربه من الشام مخافة ان يقبل اليه علي في اهل العراق ويقبل اليه قيس في اهل مصر فيقع معاوية بينهما فكتب اليه معاوية وعلي بن ابي طالب بالكوفة  يومءذ يعظم عليه قتل عثمان ويذكر له  ان صاحبه اغري به الناس وحملهم علي قتله ويحمل قيسا علي متابعته ويضمن له سلطان العراقين اذا ظهر ما بقي ويشترط له سلطان الحجاز يوليه من شاء من اهله ويقول له بعد ذلك وسلني غير هذا مما تحب فانك لا تسالني ",
-            "text2": "له حزم وراي فبعث الي الذين اعتزلوا اني لا اكرهكم علي البيعة ولكني ادعكم واكف عنكم فهادنهم وهادن مسلمة بن مخلد وجبا الخراج وليس احد ينازعه قال وخرج امير المءمنين علي عليه السلام الي الجمل وهو علي مصر ورجع الي الكوفة من البصرة وهو بمكانه فكان اثقل خلق الله علي معاوية لقربه من الشام ومخافة ان يقبل اليه علي عليه السلام باهل العراق ويقبل اليه قيس باهل مصر فيقع بينهما فكتب معاوية الي قيس بن سعد وعلي  ms131 عليه السلام يومءذ بالكوفة قبل ان يسير الي صفين بسم الله الرحمن الرحيم من معاوية بن ابي سفيان الي قيس ين سعد سلام عليك فاني احمد اليك الله الذي لا اله الا هو اما بعد فانكم ان كنتم نقمتم علي عثمان في اثرة رايتموها او في ضربة سوط رايتموه ضربها او في شتمة رجل او تعييره واحدا او في استعماله الفتيان من اهله فانكم قد علمتم ان كنتم تعلمون ان دمه لم يحل لكم بذلك فقد ركبتم عظيما من الامر وجءتم شيءا ادا فتب الي ربك يا قيس ان كنت من المجلبين علي عثمان ان كانت التوبة من قتل المءمن تغني شيءا واما صاحبك فانا قد استيقنا  انه اغري الناس به وحملهم علي قتله حتي قتلوه وانه لم يسلم من دمه عظم قومك فان استطعت يا قيس ان تكون ممن يطلب بدم عثمان فافعل وبايعنا علي امرنا هذا ولك سلطان العراقين ان انا ظفرت ما بقيت ولمن احببت من اهل بيتك سلطان الحجاز ما دام لي سلطان وسلني من غير هذا ما تحب فانك لا تسالني من شء الا اوتيته واكتب الي برايك فيما كتبت به اليك والسلام فلما جاء قيسا كتاب معاوية احب ان يدافعه ولا يبدي له امره ولا يعجل له حربه فكتب اليه اما بعد فقد وصل الي كتابك وفهمت ما ذكرت من قتل عثمان وذلك امر لم اقاربه وذكرت ان صاحبي هو الذي اغري الناس بعثمان ودسهم اليه حتي قتلوه وهذا امر لم اطلع عليه وذكرت ان عظم عشيرتي لم تسلم من دم عثمان فلعمري ان اولي الناس كان في امره عشيرتي واما ما سالتني من متابعتك علي الطلب بدمه وعرضت علي ما عرضت فقد فهمته وهذا امر لي فيه نظر وفكر وليس هذا مما يعجل اليه وانا كاف عنك وليس ياتيك من قبلي شء تكرهه حتي تري ونري والسلام عليك ورحمة الله وبركاته قال فلما قرا معاوية كتابه لم يره الا مقاربا مباعدا ولم يامن ",
-            "text_before1": "فجبي الخراج لا ينازعه احد وخرج امير المءمنين الي اهل الجمل وهو علي مصر ورجع الي ارض الكوفة من البصرة وهو بمكانه فكان اثقل خلق الله علي معاوية لقربه من الشام مخافة ان يقبل اليه علي في اهل العراق ويقبل اليه قيس في اهل مصر فيقع معاوية بينهما فكتب اليه معاوية وعلي بن ابي طالب بالكوفة ",
-            "text_before2": "له حزم وراي فبعث الي الذين اعتزلوا اني لا اكرهكم علي البيعة ولكني ادعكم واكف عنكم فهادنهم وهادن مسلمة بن مخلد وجبا الخراج وليس احد ينازعه قال وخرج امير المءمنين علي عليه السلام الي الجمل وهو علي مصر ورجع الي الكوفة من البصرة وهو بمكانه فكان اثقل خلق الله علي معاوية لقربه من الشام ومخافة ان يقبل اليه علي عليه السلام باهل العراق ويقبل اليه قيس باهل مصر فيقع بينهما فكتب معاوية الي قيس بن سعد وعلي ",
-            "text_after1": "ان صاحبه اغري به الناس وحملهم علي قتله ويحمل قيسا علي متابعته ويضمن له سلطان العراقين اذا ظهر ما بقي ويشترط له سلطان الحجاز يوليه من شاء من اهله ويقول له بعد ذلك وسلني غير هذا مما تحب فانك لا تسالني ",
-            "text_after2": "انه اغري الناس به وحملهم علي قتله حتي قتلوه وانه لم يسلم من دمه عظم قومك فان استطعت يا قيس ان تكون ممن يطلب بدم عثمان فافعل وبايعنا علي امرنا هذا ولك سلطان العراقين ان انا ظفرت ما بقيت ولمن احببت من اهل بيتك سلطان الحجاز ما دام لي سلطان وسلني من غير هذا ما تحب فانك لا تسالني من شء الا اوتيته واكتب الي برايك فيما كتبت به اليك والسلام فلما جاء قيسا كتاب معاوية احب ان يدافعه ولا يبدي له امره ولا يعجل له حربه فكتب اليه اما بعد فقد وصل الي كتابك وفهمت ما ذكرت من قتل عثمان وذلك امر لم اقاربه وذكرت ان صاحبي هو الذي اغري الناس بعثمان ودسهم اليه حتي قتلوه وهذا امر لم اطلع عليه وذكرت ان عظم عشيرتي لم تسلم من دم عثمان فلعمري ان اولي الناس كان في امره عشيرتي واما ما سالتني من متابعتك علي الطلب بدمه وعرضت علي ما عرضت فقد فهمته وهذا امر لي فيه نظر وفكر وليس هذا مما يعجل اليه وانا كاف عنك وليس ياتيك من قبلي شء تكرهه حتي تري ونري والسلام عليك ورحمة الله وبركاته قال فلما قرا معاوية كتابه لم يره الا مقاربا مباعدا ولم يامن "
+            "text1": "فجبي الخراج لا ينازعه <br/>احد وخرج امير المءمنين <br/>الي اهل الجمل وهو علي مصر ورجع الي <br/>ارض الكوفه من البصره وهو بمكانه فكان اثقل خلق الله علي معاويه لقربه من الشام <br/>مخافه ان يقبل اليه علي <br/>في اهل العراق ويقبل اليه قيس <br/>في اهل مصر فيقع <br/>معاويه بينهما فكتب <br/>اليه معاويه وعلي<br/> بن ابي طالب بالكوفه يومءذ يعظم عليه قتل <br/>عثمان ويذكر له ان صاحبه اغري به الناس وحملهم علي قتله <br/>ويحمل قيسا علي متابعته ويضمن له سلطان العراقين <br/>اذا ظهر ما بقي ويشترط له سلطان الحجاز <br/>يوليه من شاء من اهله ويقول له بعد ذلك وسلني <br/>غير هذا مما تحب فانك لا تسالني<br/>",
+            "text2": "له حزم وراي فبعث الي الذين اعتزلوا اني لا اكرهكم علي البيعه ولكني ادعكم واكف عنكم فهادنهم وهادن مسلمه بن مخلد وجبا الخراج وليس احد ينازعه <br/>قال وخرج امير المءمنين <br/>علي عليه السلام الي الجمل وهو علي مصر ورجع الي <br/>الكوفه من البصره وهو بمكانه فكان اثقل خلق الله علي معاويه لقربه من الشام <br/>ومخافه ان يقبل اليه علي <br/>عليه السلام باهل العراق ويقبل اليه قيس <br/>باهل مصر فيقع <br/>بينهما فكتب <br/>معاويه الي قيس بن سعد وعلي<br/> عليه السلام يومءذ بالكوفه قبل ان يسير الي صفين بسم الله الرحمن الرحيم من معاويه بن ابي سفيان الي قيس ين سعد سلام عليك فاني احمد اليك الله الذي لا اله الا هو اما بعد فانكم ان كنتم نقمتم علي عثمان في اثره رايتموها او في ضربه سوط رايتموه ضربها او في شتمه رجل او تعييره واحدا او في استعماله الفتيان من اهله فانكم قد علمتم ان كنتم تعلمون ان دمه لم يحل لكم بذلك فقد ركبتم عظيما من الامر وجءتم شيءا ادا فتب الي ربك يا قيس ان كنت من المجلبين علي عثمان ان كانت التوبه من قتل <br/>المءمن تغني شيءا واما صاحبك فانا قد استيقنا انه اغري الناس به وحملهم علي قتله <br/>حتي قتلوه وانه لم يسلم من دمه عظم قومك فان استطعت يا قيس ان تكون ممن يطلب بدم عثمان فافعل وبايعنا علي امرنا هذا ولك سلطان العراقين <br/>ان انا ظفرت ما بقيت ولمن احببت من اهل بيتك سلطان الحجاز <br/>ما دام لي سلطان وسلني <br/>من غير هذا ما تحب فانك لا تسالني<br/> من شء الا اوتيته واكتب الي برايك فيما كتبت به اليك والسلام فلما جاء قيسا كتاب معاويه احب ان يدافعه ولا يبدي له امره ولا يعجل له حربه فكتب اليه اما بعد فقد وصل الي كتابك وفهمت ما ذكرت من قتل عثمان وذلك امر لم اقاربه وذكرت ان صاحبي هو الذي اغري الناس بعثمان ودسهم اليه حتي قتلوه وهذا امر لم اطلع عليه وذكرت ان عظم عشيرتي لم تسلم من دم عثمان فلعمري ان اولي الناس كان في امره عشيرتي واما ما سالتني من متابعتك علي الطلب بدمه وعرضت علي ما عرضت فقد فهمته وهذا امر لي فيه نظر وفكر وليس هذا مما يعجل اليه وانا كاف عنك وليس ياتيك من قبلي شء تكرهه حتي تري ونري والسلام عليك ورحمه الله وبركاته قال فلما قرا معاويه كتابه لم يره الا مقاربا مباعدا ولم يامن",
+            "text_before1": "فجبي الخراج لا ينازعه <br/>احد وخرج امير المءمنين <br/>الي اهل الجمل وهو علي مصر ورجع الي <br/>ارض الكوفه من البصره وهو بمكانه فكان اثقل خلق الله علي معاويه لقربه من الشام <br/>مخافه ان يقبل اليه علي <br/>في اهل العراق ويقبل اليه قيس <br/>في اهل مصر فيقع <br/>معاويه بينهما فكتب <br/>اليه معاويه وعلي<br/> بن ابي طالب بالكوفه",
+            "text_before2": "له حزم وراي فبعث الي الذين اعتزلوا اني لا اكرهكم علي البيعه ولكني ادعكم واكف عنكم فهادنهم وهادن مسلمه بن مخلد وجبا الخراج وليس احد ينازعه <br/>قال وخرج امير المءمنين <br/>علي عليه السلام الي الجمل وهو علي مصر ورجع الي <br/>الكوفه من البصره وهو بمكانه فكان اثقل خلق الله علي معاويه لقربه من الشام <br/>ومخافه ان يقبل اليه علي <br/>عليه السلام باهل العراق ويقبل اليه قيس <br/>باهل مصر فيقع <br/>بينهما فكتب <br/>معاويه الي قيس بن سعد وعلي<br/>",
+            "text_after1": "ان صاحبه اغري به الناس وحملهم علي قتله <br/>ويحمل قيسا علي متابعته ويضمن له سلطان العراقين <br/>اذا ظهر ما بقي ويشترط له سلطان الحجاز <br/>يوليه من شاء من اهله ويقول له بعد ذلك وسلني <br/>غير هذا مما تحب فانك لا تسالني<br/>",
+            "text_after2": "انه اغري الناس به وحملهم علي قتله <br/>حتي قتلوه وانه لم يسلم من دمه عظم قومك فان استطعت يا قيس ان تكون ممن يطلب بدم عثمان فافعل وبايعنا علي امرنا هذا ولك سلطان العراقين <br/>ان انا ظفرت ما بقيت ولمن احببت من اهل بيتك سلطان الحجاز <br/>ما دام لي سلطان وسلني <br/>من غير هذا ما تحب فانك لا تسالني<br/> من شء الا اوتيته واكتب الي برايك فيما كتبت به اليك والسلام فلما جاء قيسا كتاب معاويه احب ان يدافعه ولا يبدي له امره ولا يعجل له حربه فكتب اليه اما بعد فقد وصل الي كتابك وفهمت ما ذكرت من قتل عثمان وذلك امر لم اقاربه وذكرت ان صاحبي هو الذي اغري الناس بعثمان ودسهم اليه حتي قتلوه وهذا امر لم اطلع عليه وذكرت ان عظم عشيرتي لم تسلم من دم عثمان فلعمري ان اولي الناس كان في امره عشيرتي واما ما سالتني من متابعتك علي الطلب بدمه وعرضت علي ما عرضت فقد فهمته وهذا امر لي فيه نظر وفكر وليس هذا مما يعجل اليه وانا كاف عنك وليس ياتيك من قبلي شء تكرهه حتي تري ونري والسلام عليك ورحمه الله وبركاته قال فلما قرا معاويه كتابه لم يره الا مقاربا مباعدا ولم يامن"
         }
     }
 ]

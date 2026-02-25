@@ -348,8 +348,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 263,
-                            "end": 299,
+                            "start": 292,
+                            "end": 328,
                             "labels": [
                                 "verbatim"
                             ]
@@ -361,8 +361,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 314,
-                            "end": 336,
+                            "start": 343,
+                            "end": 365,
                             "labels": [
                                 "verbatim"
                             ]
@@ -374,8 +374,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 341,
-                            "end": 342,
+                            "start": 370,
+                            "end": 371,
                             "labels": [
                                 "verbatim"
                             ]
@@ -387,8 +387,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 342,
-                            "end": 346,
+                            "start": 371,
+                            "end": 375,
                             "labels": [
                                 "verbatim"
                             ]
@@ -400,8 +400,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 346,
-                            "end": 380,
+                            "start": 375,
+                            "end": 409,
                             "labels": [
                                 "verbatim"
                             ]
@@ -413,8 +413,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 390,
-                            "end": 416,
+                            "start": 419,
+                            "end": 445,
                             "labels": [
                                 "verbatim"
                             ]
@@ -426,8 +426,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 422,
-                            "end": 435,
+                            "start": 451,
+                            "end": 464,
                             "labels": [
                                 "verbatim"
                             ]
@@ -439,8 +439,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 440,
-                            "end": 445,
+                            "start": 469,
+                            "end": 474,
                             "labels": [
                                 "verbatim"
                             ]
@@ -452,8 +452,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 450,
-                            "end": 508,
+                            "start": 479,
+                            "end": 537,
                             "labels": [
                                 "verbatim"
                             ]
@@ -465,8 +465,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 513,
-                            "end": 597,
+                            "start": 542,
+                            "end": 626,
                             "labels": [
                                 "verbatim"
                             ]
@@ -478,8 +478,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 603,
-                            "end": 607,
+                            "start": 632,
+                            "end": 636,
                             "labels": [
                                 "verbatim"
                             ]
@@ -491,8 +491,21 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 318,
-                            "end": 354,
+                            "start": 347,
+                            "end": 383,
+                            "labels": [
+                                "verbatim"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b-4.002",
+                        "from_name": "spans2",
+                        "to_name": "text2",
+                        "type": "labels",
+                        "value": {
+                            "start": 391,
+                            "end": 392,
                             "labels": [
                                 "verbatim"
                             ]
@@ -504,8 +517,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 363,
-                            "end": 385,
+                            "start": 392,
+                            "end": 414,
                             "labels": [
                                 "verbatim"
                             ]
@@ -517,8 +530,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 393,
-                            "end": 397,
+                            "start": 422,
+                            "end": 426,
                             "labels": [
                                 "verbatim"
                             ]
@@ -530,8 +543,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 397,
-                            "end": 431,
+                            "start": 426,
+                            "end": 460,
                             "labels": [
                                 "verbatim"
                             ]
@@ -543,8 +556,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 445,
-                            "end": 471,
+                            "start": 474,
+                            "end": 500,
                             "labels": [
                                 "verbatim"
                             ]
@@ -556,8 +569,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 477,
-                            "end": 490,
+                            "start": 506,
+                            "end": 519,
                             "labels": [
                                 "verbatim"
                             ]
@@ -569,8 +582,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 490,
-                            "end": 495,
+                            "start": 519,
+                            "end": 524,
                             "labels": [
                                 "verbatim"
                             ]
@@ -582,8 +595,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 499,
-                            "end": 557,
+                            "start": 528,
+                            "end": 586,
                             "labels": [
                                 "verbatim"
                             ]
@@ -595,8 +608,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 565,
-                            "end": 649,
+                            "start": 594,
+                            "end": 678,
                             "labels": [
                                 "verbatim"
                             ]
@@ -608,8 +621,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 654,
-                            "end": 658,
+                            "start": 683,
+                            "end": 687,
                             "labels": [
                                 "verbatim"
                             ]
@@ -621,8 +634,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 578,
-                            "end": 635,
+                            "start": 636,
+                            "end": 693,
                             "labels": [
                                 "verbatim"
                             ]
@@ -634,8 +647,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 648,
-                            "end": 653,
+                            "start": 706,
+                            "end": 711,
                             "labels": [
                                 "verbatim"
                             ]
@@ -647,8 +660,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 653,
-                            "end": 654,
+                            "start": 711,
+                            "end": 712,
                             "labels": [
                                 "verbatim"
                             ]
@@ -660,8 +673,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 654,
-                            "end": 658,
+                            "start": 712,
+                            "end": 716,
                             "labels": [
                                 "verbatim"
                             ]
@@ -673,8 +686,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 663,
-                            "end": 680,
+                            "start": 721,
+                            "end": 738,
                             "labels": [
                                 "verbatim"
                             ]
@@ -686,8 +699,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 705,
-                            "end": 759,
+                            "start": 763,
+                            "end": 817,
                             "labels": [
                                 "verbatim"
                             ]
@@ -699,8 +712,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 771,
-                            "end": 780,
+                            "start": 829,
+                            "end": 838,
                             "labels": [
                                 "verbatim"
                             ]
@@ -712,8 +725,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 785,
-                            "end": 897,
+                            "start": 843,
+                            "end": 955,
                             "labels": [
                                 "verbatim"
                             ]
@@ -725,8 +738,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 903,
-                            "end": 905,
+                            "start": 961,
+                            "end": 963,
                             "labels": [
                                 "verbatim"
                             ]
@@ -738,8 +751,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 905,
-                            "end": 943,
+                            "start": 963,
+                            "end": 1001,
                             "labels": [
                                 "verbatim"
                             ]
@@ -751,8 +764,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 949,
-                            "end": 961,
+                            "start": 1007,
+                            "end": 1019,
                             "labels": [
                                 "verbatim"
                             ]
@@ -764,8 +777,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 961,
-                            "end": 962,
+                            "start": 1019,
+                            "end": 1020,
                             "labels": [
                                 "verbatim"
                             ]
@@ -777,8 +790,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 962,
-                            "end": 993,
+                            "start": 1020,
+                            "end": 1051,
                             "labels": [
                                 "verbatim"
                             ]
@@ -790,8 +803,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 998,
-                            "end": 1029,
+                            "start": 1056,
+                            "end": 1087,
                             "labels": [
                                 "verbatim"
                             ]
@@ -803,8 +816,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1035,
-                            "end": 1111,
+                            "start": 1093,
+                            "end": 1169,
                             "labels": [
                                 "verbatim"
                             ]
@@ -816,8 +829,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1117,
-                            "end": 1200,
+                            "start": 1175,
+                            "end": 1258,
                             "labels": [
                                 "verbatim"
                             ]
@@ -829,8 +842,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1205,
-                            "end": 1235,
+                            "start": 1263,
+                            "end": 1293,
                             "labels": [
                                 "verbatim"
                             ]
@@ -842,8 +855,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1243,
-                            "end": 1247,
+                            "start": 1301,
+                            "end": 1305,
                             "labels": [
                                 "verbatim"
                             ]
@@ -855,8 +868,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1247,
-                            "end": 1284,
+                            "start": 1305,
+                            "end": 1342,
                             "labels": [
                                 "verbatim"
                             ]
@@ -868,8 +881,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1292,
-                            "end": 1296,
+                            "start": 1350,
+                            "end": 1354,
                             "labels": [
                                 "verbatim"
                             ]
@@ -881,8 +894,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1296,
-                            "end": 1325,
+                            "start": 1354,
+                            "end": 1383,
                             "labels": [
                                 "verbatim"
                             ]
@@ -894,8 +907,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1330,
-                            "end": 1331,
+                            "start": 1388,
+                            "end": 1389,
                             "labels": [
                                 "verbatim"
                             ]
@@ -907,8 +920,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1331,
-                            "end": 1333,
+                            "start": 1389,
+                            "end": 1391,
                             "labels": [
                                 "verbatim"
                             ]
@@ -920,8 +933,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1333,
-                            "end": 1391,
+                            "start": 1391,
+                            "end": 1449,
                             "labels": [
                                 "verbatim"
                             ]
@@ -933,8 +946,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 629,
-                            "end": 686,
+                            "start": 687,
+                            "end": 744,
                             "labels": [
                                 "verbatim"
                             ]
@@ -946,8 +959,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 691,
-                            "end": 696,
+                            "start": 749,
+                            "end": 754,
                             "labels": [
                                 "verbatim"
                             ]
@@ -959,8 +972,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 696,
-                            "end": 700,
+                            "start": 754,
+                            "end": 758,
                             "labels": [
                                 "verbatim"
                             ]
@@ -972,8 +985,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 705,
-                            "end": 706,
+                            "start": 763,
+                            "end": 764,
                             "labels": [
                                 "verbatim"
                             ]
@@ -985,8 +998,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 706,
-                            "end": 723,
+                            "start": 764,
+                            "end": 781,
                             "labels": [
                                 "verbatim"
                             ]
@@ -998,8 +1011,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 736,
-                            "end": 790,
+                            "start": 794,
+                            "end": 848,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1011,8 +1024,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 795,
-                            "end": 804,
+                            "start": 853,
+                            "end": 862,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1024,8 +1037,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 810,
-                            "end": 922,
+                            "start": 868,
+                            "end": 980,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1037,8 +1050,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 927,
-                            "end": 929,
+                            "start": 985,
+                            "end": 987,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1050,8 +1063,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 930,
-                            "end": 968,
+                            "start": 988,
+                            "end": 1026,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1063,8 +1076,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 973,
-                            "end": 985,
+                            "start": 1031,
+                            "end": 1043,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1076,8 +1089,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 985,
-                            "end": 1016,
+                            "start": 1043,
+                            "end": 1074,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1089,8 +1102,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1032,
-                            "end": 1063,
+                            "start": 1090,
+                            "end": 1121,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1102,8 +1115,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1068,
-                            "end": 1144,
+                            "start": 1126,
+                            "end": 1202,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1115,8 +1128,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1150,
-                            "end": 1233,
+                            "start": 1208,
+                            "end": 1291,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1128,8 +1141,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1243,
-                            "end": 1273,
+                            "start": 1301,
+                            "end": 1331,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1141,8 +1154,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1279,
-                            "end": 1283,
+                            "start": 1337,
+                            "end": 1341,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1154,8 +1167,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1283,
-                            "end": 1320,
+                            "start": 1341,
+                            "end": 1378,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1167,8 +1180,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1326,
-                            "end": 1330,
+                            "start": 1384,
+                            "end": 1388,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1180,8 +1193,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1330,
-                            "end": 1359,
+                            "start": 1388,
+                            "end": 1417,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1193,8 +1206,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1364,
-                            "end": 1365,
+                            "start": 1422,
+                            "end": 1423,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1206,8 +1219,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1367,
-                            "end": 1369,
+                            "start": 1425,
+                            "end": 1427,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1219,8 +1232,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1369,
-                            "end": 1427,
+                            "start": 1427,
+                            "end": 1485,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1232,9 +1245,9 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 263,
-                            "end": 579,
-                            "text": "وقم علي رءوسهم فان اجتمع خمسة ورضوا واحدا منهم وابي واحد فاشدخ راسه واضرب راسه بالسيف وان اتفق اربعة فرضوا واحدا وابي اثنان فاضرب رءوسهما وان رضي ثلاثة منهم رجلا واحدا وثلاثة رجلا منهم فحكموا عبد الله بن عمر فاي الفريقين حكم فليختاروا رجلا منهم فان لم يرضوا بحكم عبد الله بن عمر فكونوا مع الذين فيهم عبد الرحمان بن ",
+                            "start": 292,
+                            "end": 637,
+                            "text": "وقم علي رءوسهم فان اجتمع خمسه ورضوا <br/>واحدا منهم وابي واحد فاشدخ راسه <br/>واضرب راسه بالسيف وان اتفق اربعه فرضوا <br/>واحدا وابي اثنان فاضرب رءوسهما <br/>وان رضي ثلاثه منهم رجلا واحدا وثلاثه رجلا منهم فحكموا عبد الله بن عمر فاي الفريقين حكم <br/>فليختاروا رجلا منهم فان لم يرضوا بحكم عبد الله بن عمر فكونوا مع الذين فيهم عبد الرحم<br/>ان بن",
                             "labels": [
                                 "Paraphrase"
                             ]
@@ -1246,9 +1259,9 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 318,
-                            "end": 630,
-                            "text": "وقم علي رءوسهم فان اجتمع خمسة ورضوا رجلا وابي واحد فاشدخ راسه او اضرب راسه بالسيف وان اتفق اربعة فرضوا رجلا منهم وابي اثنان فاضرب رءوسهما فان رضي ثلاثة رجلا منهم وثلاثة رجلا منهم فحكموا عبد الله بن عمر فاي الفريقين حكم له فليختاروا رجلا منهم فان لم يرضوا بحكم عبد الله بن عمر فكونوا مع الذين فيهم عبد الرحمن بن ",
+                            "start": 347,
+                            "end": 688,
+                            "text": "وقم علي رءوسهم فان اجتمع خمسه ورضوا <br/>رجلا وابي واحد فاشدخ راسه <br/>او اضرب راسه بالسيف وان اتفق اربعه فرضوا <br/>رجلا منهم وابي اثنان فاضرب رءوسهما <br/>فان رضي ثلاثه رجلا منهم وثلاثه رجلا منهم فحكموا عبد الله بن عمر فاي الفريقين حكم <br/>له فليختاروا رجلا منهم فان لم يرضوا بحكم عبد الله بن عمر فكونوا مع الذين فيهم عبد الرحم<br/>ن بن",
                             "labels": [
                                 "Paraphrase"
                             ]
@@ -1260,8 +1273,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 578,
-                            "end": 635,
+                            "start": 636,
+                            "end": 693,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1273,8 +1286,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 648,
-                            "end": 653,
+                            "start": 706,
+                            "end": 711,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1286,8 +1299,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 653,
-                            "end": 654,
+                            "start": 711,
+                            "end": 712,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1299,8 +1312,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 654,
-                            "end": 658,
+                            "start": 712,
+                            "end": 716,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1312,8 +1325,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 663,
-                            "end": 680,
+                            "start": 721,
+                            "end": 738,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1325,8 +1338,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 705,
-                            "end": 759,
+                            "start": 763,
+                            "end": 817,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1338,8 +1351,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 771,
-                            "end": 780,
+                            "start": 829,
+                            "end": 838,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1351,8 +1364,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 785,
-                            "end": 897,
+                            "start": 843,
+                            "end": 955,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1364,8 +1377,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 903,
-                            "end": 905,
+                            "start": 961,
+                            "end": 963,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1377,8 +1390,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 905,
-                            "end": 943,
+                            "start": 963,
+                            "end": 1001,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1390,8 +1403,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 949,
-                            "end": 961,
+                            "start": 1007,
+                            "end": 1019,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1403,8 +1416,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 961,
-                            "end": 962,
+                            "start": 1019,
+                            "end": 1020,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1416,8 +1429,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 962,
-                            "end": 993,
+                            "start": 1020,
+                            "end": 1051,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1429,8 +1442,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 998,
-                            "end": 1029,
+                            "start": 1056,
+                            "end": 1087,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1442,8 +1455,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1035,
-                            "end": 1111,
+                            "start": 1093,
+                            "end": 1169,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1455,8 +1468,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1117,
-                            "end": 1200,
+                            "start": 1175,
+                            "end": 1258,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1468,8 +1481,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1205,
-                            "end": 1235,
+                            "start": 1263,
+                            "end": 1293,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1481,8 +1494,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1243,
-                            "end": 1247,
+                            "start": 1301,
+                            "end": 1305,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1494,8 +1507,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1247,
-                            "end": 1284,
+                            "start": 1305,
+                            "end": 1342,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1507,8 +1520,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1292,
-                            "end": 1296,
+                            "start": 1350,
+                            "end": 1354,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1520,8 +1533,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1296,
-                            "end": 1325,
+                            "start": 1354,
+                            "end": 1383,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1533,8 +1546,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1330,
-                            "end": 1331,
+                            "start": 1388,
+                            "end": 1389,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1546,8 +1559,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1331,
-                            "end": 1333,
+                            "start": 1389,
+                            "end": 1391,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1559,8 +1572,8 @@
                         "to_name": "text1",
                         "type": "labels",
                         "value": {
-                            "start": 1333,
-                            "end": 1391,
+                            "start": 1391,
+                            "end": 1449,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1572,8 +1585,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 629,
-                            "end": 686,
+                            "start": 687,
+                            "end": 744,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1585,8 +1598,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 691,
-                            "end": 696,
+                            "start": 749,
+                            "end": 754,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1598,8 +1611,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 696,
-                            "end": 700,
+                            "start": 754,
+                            "end": 758,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1611,8 +1624,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 705,
-                            "end": 706,
+                            "start": 763,
+                            "end": 764,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1624,8 +1637,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 706,
-                            "end": 723,
+                            "start": 764,
+                            "end": 781,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1637,8 +1650,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 736,
-                            "end": 790,
+                            "start": 794,
+                            "end": 848,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1650,8 +1663,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 795,
-                            "end": 804,
+                            "start": 853,
+                            "end": 862,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1663,8 +1676,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 810,
-                            "end": 922,
+                            "start": 868,
+                            "end": 980,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1676,8 +1689,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 927,
-                            "end": 929,
+                            "start": 985,
+                            "end": 987,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1689,8 +1702,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 930,
-                            "end": 968,
+                            "start": 988,
+                            "end": 1026,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1702,8 +1715,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 973,
-                            "end": 985,
+                            "start": 1031,
+                            "end": 1043,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1715,8 +1728,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 985,
-                            "end": 1016,
+                            "start": 1043,
+                            "end": 1074,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1728,8 +1741,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1032,
-                            "end": 1063,
+                            "start": 1090,
+                            "end": 1121,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1741,8 +1754,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1068,
-                            "end": 1144,
+                            "start": 1126,
+                            "end": 1202,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1754,8 +1767,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1150,
-                            "end": 1233,
+                            "start": 1208,
+                            "end": 1291,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1767,8 +1780,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1243,
-                            "end": 1273,
+                            "start": 1301,
+                            "end": 1331,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1780,8 +1793,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1279,
-                            "end": 1283,
+                            "start": 1337,
+                            "end": 1341,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1793,8 +1806,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1283,
-                            "end": 1320,
+                            "start": 1341,
+                            "end": 1378,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1806,8 +1819,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1326,
-                            "end": 1330,
+                            "start": 1384,
+                            "end": 1388,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1819,8 +1832,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1330,
-                            "end": 1359,
+                            "start": 1388,
+                            "end": 1417,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1832,8 +1845,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1364,
-                            "end": 1365,
+                            "start": 1422,
+                            "end": 1423,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1845,8 +1858,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1367,
-                            "end": 1369,
+                            "start": 1425,
+                            "end": 1427,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1858,8 +1871,8 @@
                         "to_name": "text2",
                         "type": "labels",
                         "value": {
-                            "start": 1369,
-                            "end": 1427,
+                            "start": 1427,
+                            "end": 1485,
                             "labels": [
                                 "verbatim"
                             ]
@@ -1879,12 +1892,12 @@
             "end_ms2": 517,
             "end1": 674,
             "end2": 765,
-            "text1": "وقال لابي طلحة الانصاري ان الله تعالي طال ما اعز الاسلام بكم فاختر خمسين رجلا من الانصار فاستحث هءلاء الرهط حتي يختاروا رجلا وقال لصهيب صل بالناس ثلاثة ايام وادخل عليا وعثمان والزبير وسعدا وعبد الرحمان بن عوف وطلحة ان قدم واحضر عبد الله بن عمر ولا شء له من الامر  وقم علي رءوسهم فان اجتمع خمسة ورضوا واحدا منهم وابي واحد فاشدخ راسه واضرب راسه بالسيف وان اتفق اربعة فرضوا واحدا وابي اثنان فاضرب رءوسهما وان رضي ثلاثة منهم رجلا واحدا وثلاثة رجلا منهم فحكموا عبد الله بن عمر فاي الفريقين حكم فليختاروا رجلا منهم فان لم يرضوا بحكم عبد الله بن عمر فكونوا مع الذين فيهم عبد الرحمان بن  عوف واقتلوا الباقين ان رغبوا عما اجتمع عليه الناس فخرجوا من عنده فقال لعلي قوم كانوا معه من قريش ما تري فقال علي ان اطيع فيكم قومكم لم تءمروا ابدا وتلقاه العباس فقال له علي عدلت عنا قال وما علمك قال قرن بي عثمان وقال كونوا مع الاكثر فان رضي رجلان رجلا ورجلان رجلا فكونوا مع الذين فيهم عبد الرحمان بن عوف فسعد لا يخالف ابن عمه عبد الرحمان وعبد الرحمان صهر عثمان لا يختلفون فيوليها عثمان او يوليها عثمان عبد الرحمان فلو كان الاخران معي لم ينفعاني بله اني لا ارجو الا احدهما فقال العباس لم ادفعك في شء الا رجعت الي مستاخرا بما اكره اشرت عليك عند وفاة رسول الله صلي الله عليه ان تساله فيمن هذا الامر فابيت ثم اشرت عليك بعد وفاته ان تعاجل الامر فابيت ثم اشرت عليك حين سماك عمر في الشوري الا تدخل معهم فابيت احفظ عني واحدة كلما عرض عليك القوم فقل لا الا ان يولوك واحذر هءلاء الرهط فانهم لا يبرحون يدفعوننا عن هذا الامر حتي يقوم به غيرنا وايم الله لا نناله ",
-            "text2": "منه وقال لابي طلحة الانصاري يا ابا طلحة ان الله عز وجل طالما اعز الاسلام بكم فاختر منهم وقال للمقداد ابن الاسود اذا وضعتموني في حفرتي فاجمع هءلاء الرهط في بيت حتي يختاروا رجلا منهم وقال لصهيب صل بالناس ثلاثة ايام وادخل عليا وعثمان والزبير وسعدا وعبد الرحمن بن عوف وطلحة ان قدم واحضر عبد الله بن عمر ولا شء له من الامر  وقم علي رءوسهم فان اجتمع خمسة ورضوا رجلا وابي واحد فاشدخ راسه او اضرب راسه بالسيف وان اتفق اربعة فرضوا رجلا منهم وابي اثنان فاضرب رءوسهما فان رضي ثلاثة رجلا منهم وثلاثة رجلا منهم فحكموا عبد الله بن عمر فاي الفريقين حكم له فليختاروا رجلا منهم فان لم يرضوا بحكم عبد الله بن عمر فكونوا مع الذين فيهم عبد الرحمن بن  عوف واقتلوا الباقين ان رغبوا عما اجتمع عليه الناس فخرجوا فقال علي لقوم كانوا معه من بني هاشم ان اطيع فيكم قومكم لم تءمروا ابدا وتلقاه العباس فقال عدلت عنا فقال وما علمك قال قرن بي عثمان وقال كونوا مع الاكثر فان رضي رجلان رجلا ورجلان رجلا فكونوا مع الذين فيهم عبد الرحمن ابن عوف فسعد لا يخالف ابن عمه عبد الرحمن وعبد الرحمن صهر عثمان لا يختلفون فيوليها عبد الرحمن عثمان او يوليها عثمان عبد الرحمن فلو كان الاخران معي لم ينفعاني بله اني لا ارجو الا احدهما فقال العباس لم ارفعك في شء الا رجعت الي مستاخرا بما اكره اشرت عليك عند وفاة رسول الله صلي الله عليه وسلم ان تساله فيمن هذا الامر فابيت واشرت عليك بعد وفاته ان تعاجل الامر فابيت واشرت عليك حين سماك عمر في الشوري ان لا تدخل معهم فابيت احفظ عني واحدة كلما عرض عليك القوم فقل لا ",
-            "text_before1": "وقال لابي طلحة الانصاري ان الله تعالي طال ما اعز الاسلام بكم فاختر خمسين رجلا من الانصار فاستحث هءلاء الرهط حتي يختاروا رجلا وقال لصهيب صل بالناس ثلاثة ايام وادخل عليا وعثمان والزبير وسعدا وعبد الرحمان بن عوف وطلحة ان قدم واحضر عبد الله بن عمر ولا شء له من الامر ",
-            "text_before2": "منه وقال لابي طلحة الانصاري يا ابا طلحة ان الله عز وجل طالما اعز الاسلام بكم فاختر منهم وقال للمقداد ابن الاسود اذا وضعتموني في حفرتي فاجمع هءلاء الرهط في بيت حتي يختاروا رجلا منهم وقال لصهيب صل بالناس ثلاثة ايام وادخل عليا وعثمان والزبير وسعدا وعبد الرحمن بن عوف وطلحة ان قدم واحضر عبد الله بن عمر ولا شء له من الامر ",
-            "text_after1": "عوف واقتلوا الباقين ان رغبوا عما اجتمع عليه الناس فخرجوا من عنده فقال لعلي قوم كانوا معه من قريش ما تري فقال علي ان اطيع فيكم قومكم لم تءمروا ابدا وتلقاه العباس فقال له علي عدلت عنا قال وما علمك قال قرن بي عثمان وقال كونوا مع الاكثر فان رضي رجلان رجلا ورجلان رجلا فكونوا مع الذين فيهم عبد الرحمان بن عوف فسعد لا يخالف ابن عمه عبد الرحمان وعبد الرحمان صهر عثمان لا يختلفون فيوليها عثمان او يوليها عثمان عبد الرحمان فلو كان الاخران معي لم ينفعاني بله اني لا ارجو الا احدهما فقال العباس لم ادفعك في شء الا رجعت الي مستاخرا بما اكره اشرت عليك عند وفاة رسول الله صلي الله عليه ان تساله فيمن هذا الامر فابيت ثم اشرت عليك بعد وفاته ان تعاجل الامر فابيت ثم اشرت عليك حين سماك عمر في الشوري الا تدخل معهم فابيت احفظ عني واحدة كلما عرض عليك القوم فقل لا الا ان يولوك واحذر هءلاء الرهط فانهم لا يبرحون يدفعوننا عن هذا الامر حتي يقوم به غيرنا وايم الله لا نناله ",
-            "text_after2": "عوف واقتلوا الباقين ان رغبوا عما اجتمع عليه الناس فخرجوا فقال علي لقوم كانوا معه من بني هاشم ان اطيع فيكم قومكم لم تءمروا ابدا وتلقاه العباس فقال عدلت عنا فقال وما علمك قال قرن بي عثمان وقال كونوا مع الاكثر فان رضي رجلان رجلا ورجلان رجلا فكونوا مع الذين فيهم عبد الرحمن ابن عوف فسعد لا يخالف ابن عمه عبد الرحمن وعبد الرحمن صهر عثمان لا يختلفون فيوليها عبد الرحمن عثمان او يوليها عثمان عبد الرحمن فلو كان الاخران معي لم ينفعاني بله اني لا ارجو الا احدهما فقال العباس لم ارفعك في شء الا رجعت الي مستاخرا بما اكره اشرت عليك عند وفاة رسول الله صلي الله عليه وسلم ان تساله فيمن هذا الامر فابيت واشرت عليك بعد وفاته ان تعاجل الامر فابيت واشرت عليك حين سماك عمر في الشوري ان لا تدخل معهم فابيت احفظ عني واحدة كلما عرض عليك القوم فقل لا "
+            "text1": "وقال لابي طلحه الانصاري <br/>ان الله تعالي طال ما اعز الاسلام بكم فاختر <br/>خمسين رجلا من الانصار فاستحث هءلاء الرهط <br/>حتي يختاروا رجلا <br/>وقال لصهيب صل بالناس ثلاثه ايام وادخل عليا وعثمان والزبير وسعدا وعبد الرحم<br/>ان بن عوف وطلحه ان قدم واحضر عبد الله بن عمر ولا شء له من الامر<br/> وقم علي رءوسهم فان اجتمع خمسه ورضوا <br/>واحدا منهم وابي واحد فاشدخ راسه <br/>واضرب راسه بالسيف وان اتفق اربعه فرضوا <br/>واحدا وابي اثنان فاضرب رءوسهما <br/>وان رضي ثلاثه منهم رجلا واحدا وثلاثه رجلا منهم فحكموا عبد الله بن عمر فاي الفريقين حكم <br/>فليختاروا رجلا منهم فان لم يرضوا بحكم عبد الله بن عمر فكونوا مع الذين فيهم عبد الرحم<br/>ان بن عوف واقتلوا الباقين ان رغبوا عما اجتمع عليه الناس فخرجوا <br/>من عنده فقال لعلي <br/>قوم كانوا معه من <br/>قريش ما تري فقال علي ان اطيع فيكم قومكم لم تءمروا ابدا وتلقاه العباس فقال <br/>له علي عدلت عنا <br/>قال وما علمك قال قرن بي عثمان وقال كونوا مع الاكثر فان رضي رجلان رجلا ورجلان رجلا فكونوا مع الذين فيهم عبد الرحم<br/>ان بن عوف فسعد لا يخالف ابن عمه عبد الرحم<br/>ان وعبد الرحمان صهر عثمان لا يختلفون فيوليها <br/>عثمان او يوليها عثمان عبد الرحم<br/>ان فلو كان الاخران معي لم ينفعاني بله اني لا ارجو الا احدهما فقال العباس لم ا<br/>دفعك في شء الا رجعت الي مستاخرا بما اكره اشرت عليك عند وفاه رسول الله صلي الله عليه <br/>ان تساله فيمن هذا الامر فابيت <br/>ثم اشرت عليك بعد وفاته ان تعاجل الامر فابيت <br/>ثم اشرت عليك حين سماك عمر في الشوري <br/>الا تدخل معهم فابيت احفظ عني واحده كلما عرض عليك القوم فقل لا<br/> الا ان يولوك واحذر هءلاء الرهط فانهم لا يبرحون يدفعوننا عن هذا الامر حتي يقوم به غيرنا وايم الله لا نناله",
+            "text2": "منه وقال لابي طلحه الانصاري <br/>يا ابا طلحه ان الله عز وجل طالما اعز الاسلام بكم فاختر <br/>منهم وقال للمقداد ابن الاسود اذا وضعتموني في حفرتي فاجمع هءلاء الرهط <br/>في بيت حتي يختاروا رجلا <br/>منهم وقال لصهيب صل بالناس ثلاثه ايام وادخل عليا وعثمان والزبير وسعدا وعبد الرحم<br/>ن بن عوف وطلحه ان قدم واحضر عبد الله بن عمر ولا شء له من الامر<br/> وقم علي رءوسهم فان اجتمع خمسه ورضوا <br/>رجلا وابي واحد فاشدخ راسه <br/>او اضرب راسه بالسيف وان اتفق اربعه فرضوا <br/>رجلا منهم وابي اثنان فاضرب رءوسهما <br/>فان رضي ثلاثه رجلا منهم وثلاثه رجلا منهم فحكموا عبد الله بن عمر فاي الفريقين حكم <br/>له فليختاروا رجلا منهم فان لم يرضوا بحكم عبد الله بن عمر فكونوا مع الذين فيهم عبد الرحم<br/>ن بن عوف واقتلوا الباقين ان رغبوا عما اجتمع عليه الناس فخرجوا <br/>فقال علي <br/>لقوم كانوا معه من <br/>بني هاشم ان اطيع فيكم قومكم لم تءمروا ابدا وتلقاه العباس فقال <br/>عدلت عنا <br/>فقال وما علمك قال قرن بي عثمان وقال كونوا مع الاكثر فان رضي رجلان رجلا ورجلان رجلا فكونوا مع الذين فيهم عبد الرحم<br/>ن ابن عوف فسعد لا يخالف ابن عمه عبد الرحم<br/>ن وعبد الرحمن صهر عثمان لا يختلفون فيوليها <br/>عبد الرحمن عثمان او يوليها عثمان عبد الرحم<br/>ن فلو كان الاخران معي لم ينفعاني بله اني لا ارجو الا احدهما فقال العباس لم ا<br/>رفعك في شء الا رجعت الي مستاخرا بما اكره اشرت عليك عند وفاه رسول الله صلي الله عليه <br/>وسلم ان تساله فيمن هذا الامر فابيت <br/>واشرت عليك بعد وفاته ان تعاجل الامر فابيت <br/>واشرت عليك حين سماك عمر في الشوري <br/>ان لا تدخل معهم فابيت احفظ عني واحده كلما عرض عليك القوم فقل لا<br/>",
+            "text_before1": "وقال لابي طلحه الانصاري <br/>ان الله تعالي طال ما اعز الاسلام بكم فاختر <br/>خمسين رجلا من الانصار فاستحث هءلاء الرهط <br/>حتي يختاروا رجلا <br/>وقال لصهيب صل بالناس ثلاثه ايام وادخل عليا وعثمان والزبير وسعدا وعبد الرحم<br/>ان بن عوف وطلحه ان قدم واحضر عبد الله بن عمر ولا شء له من الامر<br/>",
+            "text_before2": "منه وقال لابي طلحه الانصاري <br/>يا ابا طلحه ان الله عز وجل طالما اعز الاسلام بكم فاختر <br/>منهم وقال للمقداد ابن الاسود اذا وضعتموني في حفرتي فاجمع هءلاء الرهط <br/>في بيت حتي يختاروا رجلا <br/>منهم وقال لصهيب صل بالناس ثلاثه ايام وادخل عليا وعثمان والزبير وسعدا وعبد الرحم<br/>ن بن عوف وطلحه ان قدم واحضر عبد الله بن عمر ولا شء له من الامر<br/>",
+            "text_after1": "عوف واقتلوا الباقين ان رغبوا عما اجتمع عليه الناس فخرجوا <br/>من عنده فقال لعلي <br/>قوم كانوا معه من <br/>قريش ما تري فقال علي ان اطيع فيكم قومكم لم تءمروا ابدا وتلقاه العباس فقال <br/>له علي عدلت عنا <br/>قال وما علمك قال قرن بي عثمان وقال كونوا مع الاكثر فان رضي رجلان رجلا ورجلان رجلا فكونوا مع الذين فيهم عبد الرحم<br/>ان بن عوف فسعد لا يخالف ابن عمه عبد الرحم<br/>ان وعبد الرحمان صهر عثمان لا يختلفون فيوليها <br/>عثمان او يوليها عثمان عبد الرحم<br/>ان فلو كان الاخران معي لم ينفعاني بله اني لا ارجو الا احدهما فقال العباس لم ا<br/>دفعك في شء الا رجعت الي مستاخرا بما اكره اشرت عليك عند وفاه رسول الله صلي الله عليه <br/>ان تساله فيمن هذا الامر فابيت <br/>ثم اشرت عليك بعد وفاته ان تعاجل الامر فابيت <br/>ثم اشرت عليك حين سماك عمر في الشوري <br/>الا تدخل معهم فابيت احفظ عني واحده كلما عرض عليك القوم فقل لا<br/> الا ان يولوك واحذر هءلاء الرهط فانهم لا يبرحون يدفعوننا عن هذا الامر حتي يقوم به غيرنا وايم الله لا نناله",
+            "text_after2": "عوف واقتلوا الباقين ان رغبوا عما اجتمع عليه الناس فخرجوا <br/>فقال علي <br/>لقوم كانوا معه من <br/>بني هاشم ان اطيع فيكم قومكم لم تءمروا ابدا وتلقاه العباس فقال <br/>عدلت عنا <br/>فقال وما علمك قال قرن بي عثمان وقال كونوا مع الاكثر فان رضي رجلان رجلا ورجلان رجلا فكونوا مع الذين فيهم عبد الرحم<br/>ن ابن عوف فسعد لا يخالف ابن عمه عبد الرحم<br/>ن وعبد الرحمن صهر عثمان لا يختلفون فيوليها <br/>عبد الرحمن عثمان او يوليها عثمان عبد الرحم<br/>ن فلو كان الاخران معي لم ينفعاني بله اني لا ارجو الا احدهما فقال العباس لم ا<br/>رفعك في شء الا رجعت الي مستاخرا بما اكره اشرت عليك عند وفاه رسول الله صلي الله عليه <br/>وسلم ان تساله فيمن هذا الامر فابيت <br/>واشرت عليك بعد وفاته ان تعاجل الامر فابيت <br/>واشرت عليك حين سماك عمر في الشوري <br/>ان لا تدخل معهم فابيت احفظ عني واحده كلما عرض عليك القوم فقل لا<br/>"
         }
     }
 ]

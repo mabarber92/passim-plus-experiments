@@ -275,7 +275,7 @@ class gapsClusters():
         offset["end"] = offset["end"] + chars
         return offset
 
-    def _add_verbatim_as_prediction(self, text_a, text_b, ref_a, ref_b, augment_offset_a=0, augment_offset_b=0):
+    def _add_verbatim_as_prediction(self, text_a, text_b, ref_a, ref_b, augment_offset_a=0, augment_offset_b=0, label="verbatim", prefix=""):
         """Run a diff on pair of texts and return offsets as a list of predictions
         Augment_offset adds an int to the offset - to be used when adding multiple pieces together
         where the offset needs adjusting iteratively"""
@@ -284,11 +284,11 @@ class gapsClusters():
         predictions = []
         for offset in offset_dict["offsets_a"]:
             offset = self._augment_offset(offset, augment_offset_a)
-            predictions.append(self._format_as_prediction(offset["id"], ref_a, ref_a, offset["start"], offset["end"], ["verbatim"], side="a"))
+            predictions.append(self._format_as_prediction(offset["id"], ref_a, ref_a, offset["start"], offset["end"], [label], side="a"+prefix))
         
         for offset in offset_dict["offsets_b"]:
             offset = self._augment_offset(offset, augment_offset_b)
-            predictions.append(self._format_as_prediction(offset["id"], ref_b, ref_b, offset["start"], offset["end"], ["verbatim"], side="b"))
+            predictions.append(self._format_as_prediction(offset["id"], ref_b, ref_b, offset["start"], offset["end"], [label], side="b"+prefix))
         
         return predictions, offset_dict
 
@@ -326,11 +326,16 @@ class gapsClusters():
 
                     augment_offset_a = 0
                     augment_offset_b = 0
-                    for data_key in [["text_before1", "text_before2"], ["text1", "text2"], ["text_after1", "text_after2"]]:
-
-                        predictions, offset_dict = self._add_verbatim_as_prediction(row[data_key[0]], row[data_key[1]], ref_a, ref_b, augment_offset_a, augment_offset_b)
+                    for idx, data_key in enumerate([["text_before1", "text_before2"], ["text1", "text2"], ["text_after1", "text_after2"]]):
+                        if data_key[0] == "text1":
+                            label = "verbatim in gap"
+                        else:
+                            label = "verbatim"
+                        
+                        predictions, offset_dict = self._add_verbatim_as_prediction(row[data_key[0]], row[data_key[1]], ref_a, ref_b, augment_offset_a, augment_offset_b, label=label, prefix=f"-{idx}")
                         text_a = offset_dict["text_a"]
                         text_b = offset_dict["text_b"]
+
                         augment_offset_a += len(text_a)
                         augment_offset_b += len(text_b)
                         row[data_key[0]] = text_a
@@ -340,9 +345,9 @@ class gapsClusters():
                     # As we've changed the content of the row, we add the data at this point
                     processed_data["data"] = row
 
-
-                full_text_a, prediction_a = self._convert_to_prediction("text1", "text_before1", "text_after1", ref_a, row)
-                full_text_b, prediction_b = self._convert_to_prediction("text2", "text_before2", "text_after2", ref_b, row)
+                # Following this step - continued offset drift in the middle text (ms marker still present) - possibly not writing new text
+                full_text_a, prediction_a = self._convert_to_prediction("text1", "text_before1", "text_after1", ref_a, row, label="Passim Gap")
+                full_text_b, prediction_b = self._convert_to_prediction("text2", "text_before2", "text_after2", ref_b, row, label="Passim Gap")
                 row["text1"] = full_text_a
                 row["text2"] = full_text_b
 
@@ -363,11 +368,7 @@ class gapsClusters():
                             }
                         ]
                     }
-                if add_diff:
-                    # data = self._add_verbatim_as_prediction(full_text_a, full_text_b, ref_a, ref_b)
-                    # print(data)
-                    processed_data["predictions"][0]["result"].extend(predictions)
-                    
+
             # If we calaculate diffs, then we need to pass them as a new model within predictions - check if it exists and add
             # We must calculate the diffs after the full text has been returned - best handled as a separate function
             else:
