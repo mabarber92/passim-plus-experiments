@@ -39,6 +39,7 @@ class gapsClusters():
         # Store the data dict
         self.gaps_dict = gaps_data
 
+
     
     def check_data_dict(self, gaps_dict):
 
@@ -204,6 +205,9 @@ class gapsClusters():
                 if format == 'csv':
                     df.to_csv(full_path, encoding='utf-8-sig', index=False)
                 if format == 'label_studio':
+                    
+                    # set a global id
+                    self.global_id = 0
                     self._to_label_studio_json(df, full_path, add_diff=add_diff)
 
     def export_csv(self, directory, sep_pairwise=False, primary_books=None):
@@ -216,7 +220,7 @@ class gapsClusters():
         # Run the pairwise exporter with csv format
         self._pairwise_exporter(directory, 'csv', sep_pairwise, primary_books)
     
-    def _convert_to_prediction(self, text_key, before_key, after_key, ref, data_dict, label="Paraphrase"):
+    def _convert_to_prediction(self, text_key, before_key, after_key, ref, data_dict, id, label="Paraphrase"):
         """Take a row of pairwise data and use it to produce a prediction type format for label studio
         text_key: key in dictionary that contains text
         before_key: key in dictionary that contains text before the prediction
@@ -240,8 +244,10 @@ class gapsClusters():
         
         full_text = " ".join([before_text, prediction_text, after_text])
 
+
         prediction = {
-            "id" : f"{ref}1",
+            # "id" : f"{ref}1",
+            "id": id,
             "from_name": f"spans{ref}",
             "to_name": f"text{ref}",
             "type": "labels",
@@ -258,8 +264,10 @@ class gapsClusters():
     def _format_as_prediction(self, id, from_name, to_name, start, end, labels, side):
         """For quick access - take values and format as a prediction dictionary
         labels should be a list"""
+        
         return {
-            "id": f"{side}-{id}",
+            # "id": f"{side}-{id}",
+            "id": id,
             "from_name": f"spans{from_name}",
             "to_name": f"text{to_name}",
             "type": "labels",
@@ -280,16 +288,27 @@ class gapsClusters():
         Augment_offset adds an int to the offset - to be used when adding multiple pieces together
         where the offset needs adjusting iteratively"""
         offset_dict =  pairComparison(text_a, text_b).fetch_verbatim_offsets()
+        local_id = self.global_id
         
         predictions = []
-        for offset in offset_dict["offsets_a"]:
-            offset = self._augment_offset(offset, augment_offset_a)
-            predictions.append(self._format_as_prediction(offset["id"], ref_a, ref_a, offset["start"], offset["end"], [label], side="a"+prefix))
+        for offset_a in offset_dict["offsets_a"]:
+            local_id += 1
+            offset_a = self._augment_offset(offset_a, augment_offset_a)
+            predictions.append(self._format_as_prediction(f"a-{local_id}", ref_a, ref_a, offset_a["start"], offset_a["end"], [label], side="a"+prefix))
+        first_pass = local_id
+
+        local_id = self.global_id
+        for offset_b in offset_dict["offsets_b"]:
+            local_id += 1
+            offset_b = self._augment_offset(offset_b, augment_offset_b)
+            predictions.append(self._format_as_prediction(f"b-{local_id}", ref_b, ref_b, offset_b["start"], offset_b["end"], [label], side="b"+prefix))
         
-        for offset in offset_dict["offsets_b"]:
-            offset = self._augment_offset(offset, augment_offset_b)
-            predictions.append(self._format_as_prediction(offset["id"], ref_b, ref_b, offset["start"], offset["end"], [label], side="b"+prefix))
-        
+        # Take the largest number after both passes as the global id
+        if first_pass > local_id:
+            self.global_id = first_pass
+        else:
+            self.global_id = local_id
+
         return predictions, offset_dict
 
     
@@ -336,18 +355,20 @@ class gapsClusters():
                         text_a = offset_dict["text_a"]
                         text_b = offset_dict["text_b"]
 
-                        augment_offset_a += len(text_a)
-                        augment_offset_b += len(text_b)
+                        augment_offset_a += len(text_a) + 1
+                        augment_offset_b += len(text_b) + 1
                         row[data_key[0]] = text_a
                         row[data_key[1]] = text_b
+                        row[f"offsets_{data_key}"] = offset_dict
                         processed_data["predictions"][0]["result"].extend(predictions)
                     
                     # As we've changed the content of the row, we add the data at this point
                     processed_data["data"] = row
 
                 # Following this step - continued offset drift in the middle text (ms marker still present) - possibly not writing new text
-                full_text_a, prediction_a = self._convert_to_prediction("text1", "text_before1", "text_after1", ref_a, row, label="Passim Gap")
-                full_text_b, prediction_b = self._convert_to_prediction("text2", "text_before2", "text_after2", ref_b, row, label="Passim Gap")
+                self.global_id += 1
+                full_text_a, prediction_a = self._convert_to_prediction("text1", "text_before1", "text_after1", ref_a, row, f"a-{self.global_id}", label="Passim Gap")
+                full_text_b, prediction_b = self._convert_to_prediction("text2", "text_before2", "text_after2", ref_b, row, f"b-{self.global_id}", label="Passim Gap")
                 row["text1"] = full_text_a
                 row["text2"] = full_text_b
 
@@ -430,6 +451,10 @@ class gapsClusters():
             self._write_pairwise_dirs(directory, dfs, format, add_diff=add_diff)
             
         else:
+            
+            # set a global id
+            self.global_id = 0
+
             if format == 'csv':
                 file_path = os.path.join(directory, "all_pairs.csv")
                 all_pairs_df.to_csv(file_path, encoding='utf-8-sig', index=False)

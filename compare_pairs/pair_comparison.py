@@ -29,10 +29,10 @@ class pairComparison():
         else:
             self.text_a, self.text_b, self.diff_a, self.diff_b = kitab_diff(self.text_a, self.text_b, min_line_length=self.min_line_length, line_tag="\n")
     
-    def _filter_offsets(self, diff_data, type="="):
+    def _filter_offsets(self, diff_data, types=["=", "<", ">"]):
         """Run through a set of diff_data and the full offset data based on type
-        types: = verbatim, - deletion, + addition"""        
-        return [offset for offset in diff_data if offset["type"] == type]
+        types: = verbatim, - deletion, + addition"""      
+        return [offset for offset in diff_data if offset["type"] in types]
 
     def fetch_verbatim_offsets(self):
         """Get the start and end positions for all verbatim overlap in text_a and text_b
@@ -47,14 +47,11 @@ class pairComparison():
         verbatim_a = self._filter_offsets(self.diff_a)
         verbatim_b = self._filter_offsets(self.diff_b)
 
-        if "ms" in self.text_a:
-            print(self.text_a)
-        if "ms" in self.text_b:
-            print(self.text_b)
-        
         return {"text_a": self.text_a,
                 "offsets_a": verbatim_a,
+                "full_data_a": self.diff_a,
                 "text_b": self.text_b,
+                "full_data_b": self.diff_b,
                 "offsets_b": verbatim_b}
         
 
